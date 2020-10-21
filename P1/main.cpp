@@ -20,6 +20,7 @@ float carX = 0;
 float rocketRotate = 0;
 GLuint carTextureID;
 GLuint rocketTextureID;
+
 GLuint LoadTexture(const char* filePath) {
     int w, h, n;
     unsigned char* image = stbi_load(filePath, &w, &h, &n, STBI_rgb_alpha);
@@ -30,6 +31,7 @@ GLuint LoadTexture(const char* filePath) {
     GLuint textureID;
     glGenTextures(1, &textureID);
     glBindTexture(GL_TEXTURE_2D, textureID);
+
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, w, h, 0, GL_RGBA, GL_UNSIGNED_BYTE, image);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
@@ -47,16 +49,20 @@ void Initialize() {
 #endif
     glViewport(0, 0, 640, 480);
     program.Load("shaders/vertex_textured.glsl", "shaders/fragment_textured.glsl");
+
     viewMatrix = glm::mat4(1.0f);
     carMatrix = glm::mat4(1.0f);
     rocketMatrix = glm::mat4(1.0f);
+
     projectionMatrix = glm::ortho(-10.0f, 10.0f, -7.5f, 7.5f, -1.0f, 1.0f);
     program.SetProjectionMatrix(projectionMatrix);
     program.SetViewMatrix(viewMatrix);
+
     glUseProgram(program.programID);
     glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
     carTextureID = LoadTexture("redcar.lpg"); 
     rocketTextureID = LoadTexture("rocket.jpg");
 }

@@ -1,2 +1,2 @@
 ﻿  main.cpp
-  SDLProject.vcxproj -> C:\Users\Owner\Downloads\SDLProject\Debug\SDLProject.exe
+LINK : fatal error LNK1168: cannot open C:\Users\Owner\Downloads\SDLProject\Debug\SDLProject.exe for writing
