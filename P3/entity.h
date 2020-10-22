@@ -48,6 +48,13 @@ public:
     bool collidedLeft = false;
     bool collidedRight = false;
 
+    
+    bool isDestination = false;
+
+    bool gameOver = false;
+
+    bool reachDestination = false;
+
     Entity();
 
 

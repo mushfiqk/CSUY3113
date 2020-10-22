@@ -10,12 +10,13 @@
 #include "glm/mat4x4.hpp"
 #include "glm/gtc/matrix_transform.hpp"
 #include "ShaderProgram.h"
+#include <vector>
 
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
 
 #include "Entity.h"
-#define PLATFORM_COUNT 5
+#define PLATFORM_COUNT 32
 
 struct GameState {
     Entity *player;
@@ -50,7 +51,53 @@ GLuint LoadTexture(const char* filePath) {
     stbi_image_free(image);
     return textureID;
 }
+void DrawText(ShaderProgram* program, GLuint fontTextureID, std::string text,
+    float size, float spacing, glm::vec3 position)
+{
+    float width = 1.0f / 16.0f;
+    float height = 1.0f / 16.0f;
+    std::vector<float> vertices;
+    std::vector<float> texCoords;
+    for (int i = 0; i < text.size(); i++) {
+        int index = (int)text[i];
+        float offset = (size + spacing) * i;
+        float u = (float)(index % 16) / 16.0f;
+        float v = (float)(index / 16) / 16.0f;
 
+
+
+
+        vertices.insert(vertices.end(), {
+        offset + (-0.5f * size), 0.5f * size,
+        offset + (-0.5f * size), -0.5f * size,
+        offset + (0.5f * size), 0.5f * size,
+        offset + (0.5f * size), -0.5f * size,
+        offset + (0.5f * size), 0.5f * size,
+        offset + (-0.5f * size), -0.5f * size,
+            });
+        texCoords.insert(texCoords.end(), {
+        u, v,
+        u, v + height,
+        u + width, v,
+        u + width, v + height,
+        u + width, v,
+        u, v + height,
+            });
+    }
+
+    glm::mat4 modelMatrix = glm::mat4(1.0f);
+    modelMatrix = glm::translate(modelMatrix, position);
+    program->SetModelMatrix(modelMatrix);
+    glUseProgram(program->programID);
+    glVertexAttribPointer(program->positionAttribute, 2, GL_FLOAT, false, 0, vertices.data());
+    glEnableVertexAttribArray(program->positionAttribute);
+    glVertexAttribPointer(program->texCoordAttribute, 2, GL_FLOAT, false, 0, texCoords.data());
+    glEnableVertexAttribArray(program->texCoordAttribute);
+    glBindTexture(GL_TEXTURE_2D, fontTextureID);
+    glDrawArrays(GL_TRIANGLES, 0, (int)(text.size() * 6));
+    glDisableVertexAttribArray(program->positionAttribute);
+    glDisableVertexAttribArray(program->texCoordAttribute);
+}
 
 void Initialize() {
     SDL_Init(SDL_INIT_VIDEO);
@@ -85,32 +132,24 @@ void Initialize() {
 
     // Initialize Player
     state.player = new Entity();
-    state.player->position = glm::vec3(0);
+    state.player->position = glm::vec3(0,3,0);
     state.player->movement = glm::vec3(0);
-    state.player->acceleration = glm::vec3(0, -9.81f, 0);
+    state.player->acceleration = glm::vec3(0, -0.8f, 0);
     state.player->speed = 1.5f;
-    state.player->textureID = LoadTexture("george_0.png");
+    state.player->textureID = LoadTexture("rocket.jpg");
 
-    state.player->animRight = new int[4]{ 3, 7, 11, 15 };
-    state.player->animLeft = new int[4]{ 1, 5, 9, 13 };
-    state.player->animUp = new int[4]{ 2, 6, 10, 14 };
-    state.player->animDown = new int[4]{ 0, 4, 8, 12 };
 
-    state.player->animIndices = state.player->animRight;
-    state.player->animFrames = 4;
-    state.player->animIndex = 0;
-    state.player->animTime = 0;
-    state.player->animCols = 4;
-    state.player->animRows = 4;
 
     state.player->height = 0.8f; 
     state.player->width = 0.8f;
 
-    state.player->jumpPower = 5.0f;
+    
 
     state.platforms = new Entity[PLATFORM_COUNT];
 
-    GLuint platformTextureID = LoadTexture("platformPack_tile001.png");
+    GLuint platformTextureID = LoadTexture("platformPack_tile016.png");
+
+    GLuint platformTextureID2 = LoadTexture("platformPack_tile029.png");
     state.platforms[0].textureID = platformTextureID;
     state.platforms[0].position = glm::vec3(-1, -3.25f,0);
 
@@ -118,14 +157,101 @@ void Initialize() {
     state.platforms[1].position = glm::vec3(0, -3.25f,0);
     
 
-    state.platforms[2].textureID = platformTextureID;
-    state.platforms[2].position = glm::vec3(1, -3.25f,0);
+    state.platforms[2].textureID = platformTextureID2;
+    state.platforms[2].position = glm::vec3(1, -3.25f,0); //target
+    state.platforms[2].isDestination = true;
 
     state.platforms[3].textureID = platformTextureID;
     state.platforms[3].position = glm::vec3(-1,-3.25f,0);
 
     state.platforms[4].textureID = platformTextureID;
-    state.platforms[4].position = glm::vec3(1.5f, -2.5f, 0);
+    state.platforms[4].position = glm::vec3(-3, -3.25f, 0);
+
+    state.platforms[5].textureID = platformTextureID;
+    state.platforms[5].position = glm::vec3(-4, -3.25f, 0);
+
+    state.platforms[6].textureID = platformTextureID2;
+    state.platforms[6].position = glm::vec3(2, -3.25f, 0); //target
+    state.platforms[6].isDestination = true;
+
+    state.platforms[7].textureID = platformTextureID;
+    state.platforms[7].position = glm::vec3(-5, -2.25f, 0);
+
+    state.platforms[8].textureID = platformTextureID;
+    state.platforms[8].position = glm::vec3(-5, -1.25f, 0);
+
+    state.platforms[9].textureID = platformTextureID;
+    state.platforms[9].position = glm::vec3(-5, -0.25f, 0);
+
+    state.platforms[10].textureID = platformTextureID;
+    state.platforms[10].position = glm::vec3(3, -3.25f, 0);
+
+    state.platforms[11].textureID = platformTextureID;
+    state.platforms[11].position = glm::vec3(4, -3.25f, 0);
+
+    state.platforms[12].textureID = platformTextureID;
+    state.platforms[12].position = glm::vec3(5, -3.25f, 0);
+
+    state.platforms[13].textureID = platformTextureID;
+    state.platforms[13].position = glm::vec3(-5, -3.25f, 0);
+
+    state.platforms[14].textureID = platformTextureID;
+    state.platforms[14].position = glm::vec3(-5, 0.25f, 0);
+
+    state.platforms[15].textureID = platformTextureID;
+    state.platforms[15].position = glm::vec3(-5, 1.25f, 0);
+
+    state.platforms[16].textureID = platformTextureID;
+    state.platforms[16].position = glm::vec3(-5, 2.25f, 0);
+
+    state.platforms[17].textureID = platformTextureID;
+    state.platforms[17].position = glm::vec3(-5, 3.25f, 0);
+
+    state.platforms[18].textureID = platformTextureID;
+    state.platforms[18].position = glm::vec3(5, 0.25f, 0);
+
+    state.platforms[19].textureID = platformTextureID;
+    state.platforms[19].position = glm::vec3(5, 1.25f, 0);
+
+    state.platforms[20].textureID = platformTextureID;
+    state.platforms[20].position = glm::vec3(5, 2.25f, 0);
+
+    state.platforms[21].textureID = platformTextureID;
+    state.platforms[21].position = glm::vec3(5, 3.25f, 0);
+
+    state.platforms[22].textureID = platformTextureID;
+    state.platforms[22].position = glm::vec3(5, -1.25f, 0);
+
+    state.platforms[23].textureID = platformTextureID;
+    state.platforms[23].position = glm::vec3(5, -2.25f, 0);
+
+    state.platforms[24].textureID = platformTextureID;
+    state.platforms[24].position = glm::vec3(5, -0.25f, 0);
+
+    //Obstacles
+   
+    state.platforms[25].textureID = platformTextureID;
+    state.platforms[25].position = glm::vec3(4, 2.25f, 0);
+
+    state.platforms[26].textureID = platformTextureID;
+    state.platforms[26].position = glm::vec3(3, 2.25f, 0);
+
+    state.platforms[27].textureID = platformTextureID;
+    state.platforms[27].position = glm::vec3(3, -2.25f, 0);
+
+    state.platforms[28].textureID = platformTextureID;
+    state.platforms[28].position = glm::vec3(5, -0.25f, 0);
+
+    state.platforms[29].textureID = platformTextureID;
+    state.platforms[29].position = glm::vec3(-4, 2.25f, 0);
+
+    state.platforms[30].textureID = platformTextureID;
+    state.platforms[30].position = glm::vec3(-3, 2.25f, 0);
+
+
+    state.platforms[31].textureID = platformTextureID;
+    state.platforms[31].position = glm::vec3(-2, -3.25f, 0);
+
 
     for (int i = 0; i < PLATFORM_COUNT; i++)
     {
@@ -156,9 +282,6 @@ void ProcessInput() {
                 break;
 
             case SDLK_SPACE:
-                if (state.player->collidedBottom) {
-                    state.player->jump = true;
-                }
                 
                 break;
             }
@@ -199,7 +322,7 @@ void Update() {
     }
 
     while (deltaTime >= FIXED_TIMESTEP) {
-        // Update. Notice it's FIXED_TIMESTEP. Not deltaTime
+        
         state.player->Update(FIXED_TIMESTEP, state.platforms, PLATFORM_COUNT);
 
         deltaTime -= FIXED_TIMESTEP;
@@ -211,6 +334,7 @@ void Update() {
 
 void Render() {
     glClear(GL_COLOR_BUFFER_BIT);
+    GLuint fontTextureID = LoadTexture("font1.png");
 
     for (int i = 0; i < PLATFORM_COUNT; i++) 
     {
@@ -218,6 +342,18 @@ void Render() {
     }
 
     state.player->Render(&program);
+    
+    if (!(state.player->gameOver)) {
+        if (state.player->reachDestination) {
+            DrawText(&program, fontTextureID, "Mission Successful", 1, -0.5f, glm::vec3(-4.2f, 2.5, 0));
+            
+        }
+        
+    }
+    else {
+        DrawText(&program, fontTextureID, "Mission Failed", 1, -0.5f, glm::vec3(-4.2f, 2.5, 0));
+    }
+    
 
     SDL_GL_SwapWindow(displayWindow);
 }
