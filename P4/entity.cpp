@@ -184,7 +184,7 @@ void Entity::AIWaitAndGo(Entity *player) {
 void Entity::AIChase(Entity* player) {
     switch (aiState) {
     case CHASE:
-        movement += -1.0f;
+        movement = glm::vec3(0, 1, 0);
         break;
 
 

@@ -103,7 +103,7 @@ void Initialize() {
     state.player->animRows = 4;
     state.player->height = 0.8f; 
     state.player->width = 0.8f;
-    state.player->jumpPower = 5;
+    state.player->jumpPower = 7;
 
    
     Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 4096);
@@ -113,7 +113,7 @@ void Initialize() {
     state.enemies = new Entity[ENEMY_COUNT];
     GLuint enemyTextureID1 = Util::LoadTexture("ctg.png");
     GLuint enemyTextureID2 = Util::LoadTexture("ctg.png");
-    GLuint enemyTextureID3 = Util::LoadTexture("ctg.png");
+    GLuint enemyTextureID3 = Util::LoadTexture("spike.png");
 
     state.enemies[0].entityType = ENEMY;
     state.enemies[0].textureID = enemyTextureID1;
@@ -135,7 +135,7 @@ void Initialize() {
 
     state.enemies[2].entityType = ENEMY;
     state.enemies[2].textureID = enemyTextureID1;
-    state.enemies[2].position = glm::vec3(4, 1.25, 0);
+    state.enemies[2].position = glm::vec3(7, 1.25, 0);
     state.enemies[2].speed = 1;
     state.enemies[2].aiType = CHASER;
     state.enemies[2].aiState = CHASE;
