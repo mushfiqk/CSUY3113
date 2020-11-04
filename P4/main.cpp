@@ -13,19 +13,29 @@
 #include "glm/gtc/matrix_transform.hpp"
 #include "ShaderProgram.h"
 #include <vector>
+#include "map.h"
+#include "Util.h"
 
-#define STB_IMAGE_IMPLEMENTATION
-#include "stb_image.h"
 
 #include "Entity.h"
-
-#define PLATFORM_COUNT 12
 #define ENEMY_COUNT 3
 
+#define LEVEL1_WIDTH 14
+#define LEVEL1_HEIGHT 5
+unsigned int level1_data[] =
+{
+ 3, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1,
+ 3, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+ 3, 1, 1, 0, 2, 0, 0, 0, 0, 1, 1, 1, 1, 1,
+ 3, 2, 2, 1, 2, 1, 1, 1, 1, 2, 2, 2, 2, 2,
+ 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2
+};
+
 struct GameState {
+    Map *map;
     Entity *player;
-    Entity *platforms;
     Entity *enemies;
+
 };
 
 GameState state;
@@ -38,73 +48,6 @@ glm::mat4 viewMatrix, modelMatrix, projectionMatrix;
 
 Mix_Music *music;
 
-GLuint LoadTexture(const char* filePath) {
-    int w, h, n;
-    unsigned char* image = stbi_load(filePath, &w, &h, &n, STBI_rgb_alpha);
-
-    if (image == NULL) {
-        std::cout << "Unable to load image. Make sure the path is correct\n";
-        assert(false);
-    }
-
-    GLuint textureID;
-    glGenTextures(1, &textureID);
-    glBindTexture(GL_TEXTURE_2D, textureID);
-    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, w, h, 0, GL_RGBA, GL_UNSIGNED_BYTE, image);
-
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
-
-    stbi_image_free(image);
-    return textureID;
-}
-void DrawText(ShaderProgram* program, GLuint fontTextureID, std::string text,
-    float size, float spacing, glm::vec3 position)
-{
-    float width = 1.0f / 16.0f;
-    float height = 1.0f / 16.0f;
-    std::vector<float> vertices;
-    std::vector<float> texCoords;
-    for (int i = 0; i < text.size(); i++) {
-        int index = (int)text[i];
-        float offset = (size + spacing) * i;
-        float u = (float)(index % 16) / 16.0f;
-        float v = (float)(index / 16) / 16.0f;
-
-
-
-
-        vertices.insert(vertices.end(), {
-        offset + (-0.5f * size), 0.5f * size,
-        offset + (-0.5f * size), -0.5f * size,
-        offset + (0.5f * size), 0.5f * size,
-        offset + (0.5f * size), -0.5f * size,
-        offset + (0.5f * size), 0.5f * size,
-        offset + (-0.5f * size), -0.5f * size,
-            });
-        texCoords.insert(texCoords.end(), {
-        u, v,
-        u, v + height,
-        u + width, v,
-        u + width, v + height,
-        u + width, v,
-        u, v + height,
-            });
-    }
-
-    glm::mat4 modelMatrix = glm::mat4(1.0f);
-    modelMatrix = glm::translate(modelMatrix, position);
-    program->SetModelMatrix(modelMatrix);
-    glUseProgram(program->programID);
-    glVertexAttribPointer(program->positionAttribute, 2, GL_FLOAT, false, 0, vertices.data());
-    glEnableVertexAttribArray(program->positionAttribute);
-    glVertexAttribPointer(program->texCoordAttribute, 2, GL_FLOAT, false, 0, texCoords.data());
-    glEnableVertexAttribArray(program->texCoordAttribute);
-    glBindTexture(GL_TEXTURE_2D, fontTextureID);
-    glDrawArrays(GL_TRIANGLES, 0, (int)(text.size() * 6));
-    glDisableVertexAttribArray(program->positionAttribute);
-    glDisableVertexAttribArray(program->texCoordAttribute);
-}
 
 void Initialize() {
     SDL_Init(SDL_INIT_VIDEO |SDL_INIT_AUDIO);
@@ -142,11 +85,11 @@ void Initialize() {
 
     state.player->entityType = PLAYER;
 
-    state.player->position = glm::vec3(2,0,0);
+    state.player->position = glm::vec3(0,10,0);
     state.player->movement = glm::vec3(0);
     state.player->acceleration = glm::vec3(0, -9.8f, 0);
     state.player->speed = 1.5f;
-    state.player->textureID = LoadTexture("george_0.png");
+    state.player->textureID = Util::LoadTexture("george_0.png");
     state.player->animRight = new int[4]{ 3, 7, 11, 15 };
     state.player->animLeft = new int[4]{ 1, 5, 9, 13 };
     state.player->animUp = new int[4]{ 2, 6, 10, 14 };
@@ -162,39 +105,15 @@ void Initialize() {
     state.player->width = 0.8f;
     state.player->jumpPower = 5;
 
-    
-
-    state.platforms = new Entity[PLATFORM_COUNT];
-
-    GLuint platformTextureID = LoadTexture("platformPack_tile016.png");
-
-    GLuint platformTextureID2 = LoadTexture("platformPack_tile029.png");
-    
-    for (int i = 0; i < PLATFORM_COUNT-1; i++) {
-        state.platforms[i].entityType = PLATFORM;
-        state.platforms[i].textureID = platformTextureID;
-        state.platforms[i].position = glm::vec3(-5+i, -3.25f, 0);
-    }
-    for (int i = 0; i < PLATFORM_COUNT-1; i++)
-    {
-        state.platforms[i].Update(0, NULL, NULL, 0);
-    }
-
-    state.platforms[11].entityType = PLATFORM;
-    state.platforms[11].textureID = platformTextureID;
-    state.platforms[11].position = glm::vec3(0, 1.25f, 0);
-
-
-
-
+   
     Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 4096);
     music = Mix_LoadMUS("dooblydoo.mp3");
     Mix_PlayMusic(music, -1);
 
     state.enemies = new Entity[ENEMY_COUNT];
-    GLuint enemyTextureID1 = LoadTexture("ctg.png");
-    GLuint enemyTextureID2 = LoadTexture("ctg.png");
-    GLuint enemyTextureID3 = LoadTexture("ctg.png");
+    GLuint enemyTextureID1 = Util::LoadTexture("ctg.png");
+    GLuint enemyTextureID2 = Util::LoadTexture("ctg.png");
+    GLuint enemyTextureID3 = Util::LoadTexture("ctg.png");
 
     state.enemies[0].entityType = ENEMY;
     state.enemies[0].textureID = enemyTextureID1;
@@ -208,7 +127,7 @@ void Initialize() {
     state.enemies[1].entityType = ENEMY;
     state.enemies[1].textureID = enemyTextureID2;
     state.enemies[1].position = glm::vec3(3, 0.25f, 0);
-    state.enemies[1].speed = 1;
+    state.enemies[1].speed = 0.5;
     state.enemies[1].aiType = WALKER;
     state.enemies[1].aiState = IDLE;
     state.enemies[1].width = 0.8f;
@@ -216,12 +135,15 @@ void Initialize() {
 
     state.enemies[2].entityType = ENEMY;
     state.enemies[2].textureID = enemyTextureID1;
-    state.enemies[2].position = glm::vec3(-4, -2.25, 0);
+    state.enemies[2].position = glm::vec3(4, 1.25, 0);
     state.enemies[2].speed = 1;
     state.enemies[2].aiType = CHASER;
     state.enemies[2].aiState = CHASE;
     state.enemies[2].width = 0.8f;
     state.enemies[2].height = 0.8f;
+
+    GLuint mapTextureID = Util::LoadTexture("tileset.png");
+    state.map = new Map(LEVEL1_WIDTH, LEVEL1_HEIGHT, level1_data, mapTextureID, 1.0f, 4, 1);
 
 }
 
@@ -291,28 +213,28 @@ void Update() {
 
     while (deltaTime >= FIXED_TIMESTEP) {
         
-        state.player->Update(FIXED_TIMESTEP, state.player, state.platforms, PLATFORM_COUNT);
-
+        state.player->Update(FIXED_TIMESTEP, state.player, state.enemies, ENEMY_COUNT, state.map);
+        
         for (int i = 0; i < ENEMY_COUNT; i++) {
-            state.enemies[i].Update(FIXED_TIMESTEP, state.player, state.platforms, PLATFORM_COUNT);
+            state.enemies[i].Update(FIXED_TIMESTEP, state.player,state.enemies, ENEMY_COUNT, state.map);
 
-        }
+        } 
         deltaTime -= FIXED_TIMESTEP;
     }
 
     accumulator = deltaTime;
+
+    viewMatrix = glm::mat4(1.0f);
+    viewMatrix = glm::translate(viewMatrix, glm::vec3(-state.player->position.x, 0, 0));
 }
 
 
 void Render() {
     glClear(GL_COLOR_BUFFER_BIT);
-    GLuint fontTextureID = LoadTexture("font1.png");
-
-    for (int i = 0; i < PLATFORM_COUNT; i++) 
-    {
-        state.platforms[i].Render(&program); 
-    }
-
+    GLuint fontTextureID = Util::LoadTexture("font1.png");
+    program.SetViewMatrix(viewMatrix); 
+    state.map->Render(&program);
+    
     for (int i = 0; i < ENEMY_COUNT; i++) {
         state.enemies[i].Render(&program);
     }
@@ -320,10 +242,10 @@ void Render() {
     
     if (!(state.player->gameOver)) {
        
-        DrawText(&program, fontTextureID, "You Win!", 1, -0.5f, glm::vec3(-4.2f, 2.5, 0));  
+        Util::DrawText(&program, fontTextureID, "You Win!", 1, -0.5f, glm::vec3(-4.2f, 2.5, 0));
     }
     else {
-        DrawText(&program, fontTextureID, "You Lose!", 1, -0.5f, glm::vec3(-4.2f, 2.5, 0));
+        Util::DrawText(&program, fontTextureID, "You Lose!", 1, -0.5f, glm::vec3(-4.2f, 2.5, 0));
     }
     
 
