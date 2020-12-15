@@ -1,4 +1,4 @@
-﻿23:52:26.668     0>Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+﻿17:55:08.005     0>Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
                    Trying to import C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\$(MSBuildToolsVersion)\Microsoft.Common.props using extensions path C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild
                    Property reassignment: $(MSBuildProjectExtensionsPath)="C:\Users\Owner\Documents\CSUY3113\P5\obj\" (previous value: "obj\") at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Microsoft.Common.props (56,5)
                    Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
@@ -929,7 +929,7 @@
                    Overriding target "GetNativeManifest" in project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" with target "GetNativeManifest" from project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets".
                    Overriding target "GetTargetPathWithTargetPlatformMoniker" in project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" with target "GetTargetPathWithTargetPlatformMoniker" from project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.DesignTime.targets".
                    The target "CoreCompile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VisualStudio\v16.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (59,12)" does not exist in the project, and will be ignored.
-Build started 11/22/2020 11:52:26 PM.
+Build started 12/10/2020 5:55:08 PM.
 Environment at start of build:
                    ALLUSERSPROFILE = C:\ProgramData
                    APPDATA = C:\Users\Owner\AppData\Roaming
@@ -967,7 +967,7 @@ Environment at start of build:
                    PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\
                    PUBLIC = C:\Users\Public
                    RegionCode = NA
-                   ServiceHubLogSessionKey = 5925477A
+                   ServiceHubLogSessionKey = 93202060
                    SESSIONNAME = Console
                    SystemDrive = C:
                    SystemRoot = C:\WINDOWS
@@ -987,8 +987,8 @@ Environment at start of build:
                    VSSKUEDITION = Community
                    windir = C:\WINDOWS
 
-Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" on node 2 (Build target(s)).
-23:52:26.699     1>Initial Properties:
+Logging verbosity is set to: Diagnostic.17:55:08.078     1>Project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" on node 2 (Build target(s)).
+17:55:08.078     1>Initial Properties:
                    _AfterCompileWinFXInternalDependsOn = 
                            PrepareResourcesForSatelliteAssemblies;
                            MergeLocalizationDirectives;
@@ -2140,7 +2140,6 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                    SDKReferenceDirectoryRoot = C:\Users\Owner\AppData\Local\Microsoft SDKs;C:\Program Files (x86)\Microsoft SDKs
                    SDKReferenceRegistryRoot = Software\Microsoft\Microsoft SDKs
                    SDKVersion = 10.0
-                   ServiceHubLogSessionKey = 5925477A
                    SESSIONNAME = Console
                    SGenFilesOutputGroupDependenciesDependsOn = 
                          ;
@@ -2366,8 +2365,8 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                    VsInstallRoot = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community
                    VSLANG = 1033
                    VSSKUEDITION = Community
-                   VSTEL_CurrentSolutionBuildID = 305338203
-                   VSTEL_SolutionSessionID = {208AF12C-56E1-4AE3-B5AD-2A28EB83F48D}
+                   VSTEL_CurrentSolutionBuildID = 326919328
+                   VSTEL_SolutionSessionID = {BD3F8E45-415A-4C7B-99B2-6D010CF11363}
                    VSVersion = $(VisualStudioVersion)
                    WDKBinRoot = C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0
                    WebBrowserDebuggerDebuggerType = Auto
@@ -2428,9 +2427,9 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                    XamlTemporaryAssemblyName = SDLProject
                    YieldDuringToolExecution = true
 
-23:52:26.699     1>Building with tools version "Current".
+17:55:08.078     1>Building with tools version "Current".
                    Target "EnableIntermediateOutputPathMismatchWarning" skipped, due to false condition; ('$(RestoreProjectStyle)' == 'PackageReference') was evaluated as ('' == 'PackageReference').
-23:52:26.699     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "SetTelemetryEnvironmentVariables" depends on it):
+17:55:08.078     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "SetTelemetryEnvironmentVariables" depends on it):
                    Set Property: _InvalidConfigurationMessageText=The OutputPath property is not set for project 'SDLProject.vcxproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='Win32'.
                    Set Property: _InvalidConfigurationMessageText=The OutputPath property is not set for project 'SDLProject.vcxproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='Win32'.  This error may also appear if some other project is trying to follow a project-to-project reference to this project, this project has been unloaded or is not included in the solution, and the referencing project does not build using the same or an equivalent Configuration or Platform.
                    Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
@@ -2451,21 +2450,21 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                    Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('Debug\' != '' and !HasTrailingSlash('Debug\')).
                    Task "Error" skipped, due to false condition; ( '$(_InitialMSBuildProjectExtensionsPath)' != '' And '$(MSBuildProjectExtensionsPath)' != '$(_InitialMSBuildProjectExtensionsPath)' ) was evaluated as ( 'C:\Users\Owner\Documents\CSUY3113\P5\obj\' != '' And 'C:\Users\Owner\Documents\CSUY3113\P5\obj\' != 'C:\Users\Owner\Documents\CSUY3113\P5\obj\' ).
                    Task "Warning" skipped, due to false condition; ( '$(EnableBaseIntermediateOutputPathMismatchWarning)' == 'true' And '$(_InitialBaseIntermediateOutputPath)' != '$(BaseIntermediateOutputPath)' And '$(BaseIntermediateOutputPath)' != '$(MSBuildProjectExtensionsPath)' ) was evaluated as ( '' == 'true' And 'obj\' != 'obj\' And 'obj\' != 'C:\Users\Owner\Documents\CSUY3113\P5\obj\' ).
-23:52:26.701     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "SDLProject.vcxproj".: (TargetId:2)
+17:55:08.081     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "SDLProject.vcxproj".: (TargetId:2)
                    Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
-23:52:26.701     1>Target "SetTelemetryEnvironmentVariables: (TargetId:3)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.DesignTime.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "Build" depends on it):
+17:55:08.081     1>Target "SetTelemetryEnvironmentVariables: (TargetId:3)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.DesignTime.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "Build" depends on it):
                    Using "SetEnv" task from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Build.CppTasks.Common.dll".
                    Task "SetEnv" (TaskId:4)
                      Task Parameter:Name=VSTEL_SolutionSessionID (TaskId:4)
-                     Task Parameter:Value={208AF12C-56E1-4AE3-B5AD-2A28EB83F48D} (TaskId:4)
+                     Task Parameter:Value={BD3F8E45-415A-4C7B-99B2-6D010CF11363} (TaskId:4)
                      Task Parameter:Prefix=False (TaskId:4)
-                     VSTEL_SolutionSessionID={208AF12C-56E1-4AE3-B5AD-2A28EB83F48D} (TaskId:4)
+                     VSTEL_SolutionSessionID={BD3F8E45-415A-4C7B-99B2-6D010CF11363} (TaskId:4)
                    Done executing task "SetEnv". (TaskId:4)
                    Task "SetEnv" (TaskId:5)
                      Task Parameter:Name=VSTEL_CurrentSolutionBuildID (TaskId:5)
-                     Task Parameter:Value=305338203 (TaskId:5)
+                     Task Parameter:Value=326919328 (TaskId:5)
                      Task Parameter:Prefix=False (TaskId:5)
-                     VSTEL_CurrentSolutionBuildID=305338203 (TaskId:5)
+                     VSTEL_CurrentSolutionBuildID=326919328 (TaskId:5)
                    Done executing task "SetEnv". (TaskId:5)
                    Task "SetEnv" (TaskId:6)
                      Task Parameter:Name=VSTEL_ProjectID (TaskId:6)
@@ -2474,8 +2473,8 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                      VSTEL_ProjectID={0F8B7E43-F01F-46E6-A5A6-217A13937247} (TaskId:6)
                      Output Property: VSTEL_ProjectID={0F8B7E43-F01F-46E6-A5A6-217A13937247} (TaskId:6)
                    Done executing task "SetEnv". (TaskId:6)
-23:52:26.703     1>Done building target "SetTelemetryEnvironmentVariables" in project "SDLProject.vcxproj".: (TargetId:3)
-23:52:26.703     1>Target "_PrepareForBuild: (TargetId:4)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "Build" depends on it):
+17:55:08.084     1>Done building target "SetTelemetryEnvironmentVariables" in project "SDLProject.vcxproj".: (TargetId:3)
+17:55:08.084     1>Target "_PrepareForBuild: (TargetId:4)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "Build" depends on it):
                    Set Property: BuildType=Build
                    Set Property: _BuildActionType=Build
                    Task "CreateItem" skipped, due to false condition; ('%(CustomBuild.IncludeFileToTool)'!='') was evaluated as (''!='').
@@ -2483,17 +2482,17 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                        CustomBuildStep=
                            SDLProject
                                    Message=Performing Custom Build Step
-23:52:26.703     1>Done building target "_PrepareForBuild" in project "SDLProject.vcxproj".: (TargetId:4)
-23:52:26.703     1>Target "_PrepareForReferenceResolution: (TargetId:5)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ResolveReferences" depends on it):
+17:55:08.084     1>Done building target "_PrepareForBuild" in project "SDLProject.vcxproj".: (TargetId:4)
+17:55:08.084     1>Target "_PrepareForReferenceResolution: (TargetId:5)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ResolveReferences" depends on it):
                    Set Property: TargetFrameworkMoniker=
                    Set Property: _FindDependencies=false
                    Set Property: AdditionalExplicitAssemblyReferences=
                    Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
-23:52:26.703     1>Done building target "_PrepareForReferenceResolution" in project "SDLProject.vcxproj".: (TargetId:5)
+17:55:08.085     1>Done building target "_PrepareForReferenceResolution" in project "SDLProject.vcxproj".: (TargetId:5)
                    Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('Effects.cpp;Entity.cpp;Level1.cpp;Level2.cpp;Level3.cpp;main.cpp;map.cpp;Scene.cpp;ShaderProgram.cpp;Util.cpp'!='' and 'false'=='true' and '' != 'false').
-23:52:26.703     1>Target "BeforeResolveReferences: (TargetId:6)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ResolveReferences" depends on it):
-23:52:26.703     1>Done building target "BeforeResolveReferences" in project "SDLProject.vcxproj".: (TargetId:6)
-23:52:26.703     1>Target "AssignProjectConfiguration: (TargetId:7)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ResolveReferences" depends on it):
+17:55:08.085     1>Target "BeforeResolveReferences: (TargetId:6)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ResolveReferences" depends on it):
+17:55:08.085     1>Done building target "BeforeResolveReferences" in project "SDLProject.vcxproj".: (TargetId:6)
+17:55:08.085     1>Target "AssignProjectConfiguration: (TargetId:7)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ResolveReferences" depends on it):
                    Set Property: ShouldUnsetParentConfigurationAndPlatform=true
                    Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "AssignProjectConfiguration" (TaskId:7)
@@ -2508,12 +2507,12 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                      Task Parameter:OnlyReferenceAndBuildProjectsEnabledInSolutionConfiguration=True (TaskId:7)
                      Task Parameter:ShouldUnsetParentConfigurationAndPlatform=True (TaskId:7)
                    Done executing task "AssignProjectConfiguration". (TaskId:7)
-23:52:26.703     1>Done building target "AssignProjectConfiguration" in project "SDLProject.vcxproj".: (TargetId:7)
+17:55:08.085     1>Done building target "AssignProjectConfiguration" in project "SDLProject.vcxproj".: (TargetId:7)
                    Target "AssignProjectConfiguration" skipped. Previously built successfully.
-23:52:26.703     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:8)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "PrepareProjectReferences" depends on it):
+17:55:08.085     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:8)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "PrepareProjectReferences" depends on it):
                    Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
-23:52:26.703     1>Done building target "_SplitProjectReferencesByFileExistence" in project "SDLProject.vcxproj".: (TargetId:8)
-23:52:26.703     1>Target "_GetProjectReferenceTargetFrameworkProperties: (TargetId:9)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "PrepareProjectReferences" depends on it):
+17:55:08.086     1>Done building target "_SplitProjectReferencesByFileExistence" in project "SDLProject.vcxproj".: (TargetId:8)
+17:55:08.086     1>Target "_GetProjectReferenceTargetFrameworkProperties: (TargetId:9)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "PrepareProjectReferences" depends on it):
                    Set Property: ReferringTargetFrameworkForProjectReferences=.NETFramework,Version=v4.0
                    Using "MSBuild" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "MSBuild" (TaskId:8)
@@ -2523,22 +2522,22 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                      Task Parameter:SkipNonexistentTargets=True (TaskId:8)
                    Done executing task "MSBuild". (TaskId:8)
                    Task "GetReferenceNearestTargetFrameworkTask" skipped, due to false condition; ('@(_ProjectReferenceTargetFrameworkPossibilities->Count())' != '0' and '$(ReferringTargetFrameworkForProjectReferences)' != '') was evaluated as ('0' != '0' and '.NETFramework,Version=v4.0' != '').
-23:52:26.708     1>Done building target "_GetProjectReferenceTargetFrameworkProperties" in project "SDLProject.vcxproj".: (TargetId:9)
-23:52:26.708     1>Target "PrepareProjectReferences: (TargetId:10)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ResolveProjectReferences" depends on it):
-23:52:26.708     1>Done building target "PrepareProjectReferences" in project "SDLProject.vcxproj".: (TargetId:10)
+17:55:08.096     1>Done building target "_GetProjectReferenceTargetFrameworkProperties" in project "SDLProject.vcxproj".: (TargetId:9)
+17:55:08.096     1>Target "PrepareProjectReferences: (TargetId:10)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ResolveProjectReferences" depends on it):
+17:55:08.096     1>Done building target "PrepareProjectReferences" in project "SDLProject.vcxproj".: (TargetId:10)
                    Target "_RemoveNameMetadataFromProjectReferenceItems" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
-23:52:26.708     1>Target "ResolveProjectReferences: (TargetId:11)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ResolveReferences" depends on it):
+17:55:08.096     1>Target "ResolveProjectReferences: (TargetId:11)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ResolveReferences" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '16.0' != '10.0' and '' != '').
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
                    Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
-23:52:26.708     1>Done building target "ResolveProjectReferences" in project "SDLProject.vcxproj".: (TargetId:11)
+17:55:08.096     1>Done building target "ResolveProjectReferences" in project "SDLProject.vcxproj".: (TargetId:11)
                    Target "FindInvalidProjectReferences" skipped, due to false condition; ('$(FindInvalidProjectReferences)' == 'true') was evaluated as ('' == 'true').
                    Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
                    Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
                    Target "ResolveProjectReferences" skipped. Previously built successfully.
                    Target "FindInvalidProjectReferences" skipped, due to false condition; ('$(FindInvalidProjectReferences)' == 'true') was evaluated as ('' == 'true').
-23:52:26.708     1>Target "GetFrameworkPaths: (TargetId:12)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+17:55:08.097     1>Target "GetFrameworkPaths: (TargetId:12)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ResolveAssemblyReferences" depends on it):
                    Added Item(s): _TargetFramework40DirectoryItem=C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319
                    Added Item(s): _TargetFramework35DirectoryItem=C:\WINDOWS\Microsoft.NET\Framework\v3.5
                    Added Item(s): _TargetFramework30DirectoryItem=C:\WINDOWS\Microsoft.NET\Framework\v3.0
@@ -2548,18 +2547,18 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                    Set Property: TargetFrameworkDirectory=C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319
                    Set Property: TargetFrameworkSDKDirectory=C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\
                    Added Item(s): _TargetFrameworkSDKDirectoryItem=C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\
-23:52:26.708     1>Done building target "GetFrameworkPaths" in project "SDLProject.vcxproj".: (TargetId:12)
+17:55:08.097     1>Done building target "GetFrameworkPaths" in project "SDLProject.vcxproj".: (TargetId:12)
                    Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
                    Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
                    Target "GetFrameworkPaths" skipped. Previously built successfully.
-23:52:26.708     1>Target "GetReferenceAssemblyPaths: (TargetId:13)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+17:55:08.097     1>Target "GetReferenceAssemblyPaths: (TargetId:13)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ResolveAssemblyReferences" depends on it):
                    Set Property: TargetFrameworkDirectory=
                    Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
                    Set Property: TargetFrameworkDirectory=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0;;
                    Set Property: TargetFrameworkDirectory=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0;;;C:\Program Files %28x86%29\Windows Kits\10\References
                    Set Property: RemoveAssemblyFoldersIfNoTargetFramework=true
-23:52:26.708     1>Done building target "GetReferenceAssemblyPaths" in project "SDLProject.vcxproj".: (TargetId:13)
-23:52:26.708     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:14)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Current.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "PrepareForBuild" depends on it):
+17:55:08.097     1>Done building target "GetReferenceAssemblyPaths" in project "SDLProject.vcxproj".: (TargetId:13)
+17:55:08.097     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:14)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Current.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "PrepareForBuild" depends on it):
                    Task "SetEnv" (TaskId:9)
                      Task Parameter:Name=PATH (TaskId:9)
                      Task Parameter:Value=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86;C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\Owner\AppData\Local\Microsoft\WindowsApps;;C:\Users\Owner\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Owner\.dotnet\tools; (TaskId:9)
@@ -2588,10 +2587,10 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                      INCLUDE=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\atlmfc\include;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt;;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um; (TaskId:12)
                      Output Property: INCLUDE=C:\Program Files %28x86%29\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include%3b%3bC:\Program Files %28x86%29\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\atlmfc\include%3b%3bC:\Program Files %28x86%29\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include%3b%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.18362.0\ucrt%3b%3b%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.18362.0\um%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.18362.0\shared%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.18362.0\winrt%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.18362.0\cppwinrt%3bC:\Program Files %28x86%29\Windows Kits\NETFXSDK\4.8\Include\um%3b (TaskId:12)
                    Done executing task "SetEnv". (TaskId:12)
-23:52:26.709     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "SDLProject.vcxproj".: (TargetId:14)
+17:55:08.098     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "SDLProject.vcxproj".: (TargetId:14)
                    Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') was evaluated as ('' != '' and '' != 'true').
                    Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
-23:52:26.709     1>Target "GetResolvedWinMD: (TargetId:15)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "PrepareForBuild" depends on it):
+17:55:08.098     1>Target "GetResolvedWinMD: (TargetId:15)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "PrepareForBuild" depends on it):
                    Added Item(s): 
                        Link=
                            tmp
@@ -2676,8 +2675,8 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                                    TypeLibraryResourceID=1
                                    UACExecutionLevel=AsInvoker
                                    UACUIAccess=false
-23:52:26.709     1>Done building target "GetResolvedWinMD" in project "SDLProject.vcxproj".: (TargetId:15)
-23:52:26.709     1>Target "_CheckWindowsSDKInstalled: (TargetId:16)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.WindowsSDK.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "PrepareForBuild" depends on it):
+17:55:08.099     1>Done building target "GetResolvedWinMD" in project "SDLProject.vcxproj".: (TargetId:15)
+17:55:08.099     1>Target "_CheckWindowsSDKInstalled: (TargetId:16)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.WindowsSDK.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "PrepareForBuild" depends on it):
                    Set Property: WindowsSDKInstalled=false
                    Set Property: WindowsSDK_UAP_Support=false
                    Set Property: WindowsSDK_Desktop_Support=false
@@ -2686,11 +2685,11 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                    Set Property: WindowsSDK_Desktop_Support=true
                    Task "VCMessage" skipped, due to false condition; ('$(WindowsSDKInstalled)' != 'true') was evaluated as ('true' != 'true').
                    Task "VCMessage" skipped, due to false condition; ('$(WindowsAppContainer)' != 'true' and '$(WindowsSDK_Desktop_Support)' != true) was evaluated as ('false' != 'true' and 'true' != true).
-23:52:26.710     1>Done building target "_CheckWindowsSDKInstalled" in project "SDLProject.vcxproj".: (TargetId:16)
+17:55:08.099     1>Done building target "_CheckWindowsSDKInstalled" in project "SDLProject.vcxproj".: (TargetId:16)
                    Target "GetFrameworkPaths" skipped. Previously built successfully.
                    Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
                    Target "AssignLinkMetadata" skipped, due to false condition; ( '$(SynthesizeLinkMetadata)' == 'true' ) was evaluated as ( '' == 'true' ).
-23:52:26.710     1>Target "SetCABuildNativeEnvironmentVariables: (TargetId:17)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VisualStudio\v16.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "PrepareForBuild" depends on it):
+17:55:08.099     1>Target "SetCABuildNativeEnvironmentVariables: (TargetId:17)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VisualStudio\v16.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "PrepareForBuild" depends on it):
                    Task "SetEnv" (TaskId:13)
                      Task Parameter:Value=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\atlmfc\include;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um; (TaskId:13)
                      Task Parameter:Name=CAExcludePath (TaskId:13)
@@ -2698,8 +2697,8 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                      CAExcludePath=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\atlmfc\include;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um; (TaskId:13)
                    Done executing task "SetEnv". (TaskId:13)
                    Task "SetEnv" skipped, due to false condition; ('$(RunMsvcAnalysis)'=='true' and '$(VCCodeAnalysisUX)'=='true') was evaluated as ('false'=='true' and 'true'=='true').
-23:52:26.710     1>Done building target "SetCABuildNativeEnvironmentVariables" in project "SDLProject.vcxproj".: (TargetId:17)
-23:52:26.710     1>Target "PrepareForBuild: (TargetId:18)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+17:55:08.100     1>Done building target "SetCABuildNativeEnvironmentVariables" in project "SDLProject.vcxproj".: (TargetId:17)
+17:55:08.100     1>Target "PrepareForBuild: (TargetId:18)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ResolveAssemblyReferences" depends on it):
                    Set Property: TargetDir=C:\Users\Owner\Documents\CSUY3113\P5\Debug\
                    Set Property: LocalDebuggerCommand=C:\Users\Owner\Documents\CSUY3113\P5\Debug\SDLProject.exe
                    Set Property: BuildProjectReferences=false
@@ -2837,22 +2836,22 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                              C:\Users\Owner\Documents\CSUY3113\P5\Debug\
                              Debug\SDLProject.tlog\ (TaskId:16)
                    Done executing task "MakeDir". (TaskId:16)
-23:52:26.713     1>Done building target "PrepareForBuild" in project "SDLProject.vcxproj".: (TargetId:18)
+17:55:08.105     1>Done building target "PrepareForBuild" in project "SDLProject.vcxproj".: (TargetId:18)
                    Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
                    Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('Effects.cpp;Entity.cpp;Level1.cpp;Level2.cpp;Level3.cpp;main.cpp;map.cpp;Scene.cpp;ShaderProgram.cpp;Util.cpp'!='' and 'false'=='true' and '' != 'false').
                    Target "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
-23:52:26.713     1>Target "ResolveSDKReferences: (TargetId:19)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+17:55:08.105     1>Target "ResolveSDKReferences: (TargetId:19)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ResolveAssemblyReferences" depends on it):
                    Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
-23:52:26.713     1>Done building target "ResolveSDKReferences" in project "SDLProject.vcxproj".: (TargetId:19)
+17:55:08.105     1>Done building target "ResolveSDKReferences" in project "SDLProject.vcxproj".: (TargetId:19)
                    Target "ResolveSDKReferences" skipped. Previously built successfully.
-23:52:26.713     1>Target "ExpandSDKReferences: (TargetId:20)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+17:55:08.105     1>Target "ExpandSDKReferences: (TargetId:20)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ResolveAssemblyReferences" depends on it):
                    Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
-23:52:26.713     1>Done building target "ExpandSDKReferences" in project "SDLProject.vcxproj".: (TargetId:20)
+17:55:08.105     1>Done building target "ExpandSDKReferences" in project "SDLProject.vcxproj".: (TargetId:20)
                    Target "ResolveNuGetPackageAssets" skipped, due to false condition; ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')) was evaluated as ('true' == 'true' and exists('C:\Users\Owner\Documents\CSUY3113\P5\obj\project.assets.json')).
                    Target "ImplicitlyExpandNETStandardFacades" skipped, due to false condition; ('$(ImplicitlyExpandNETStandardFacades)' == 'true') was evaluated as ('' == 'true').
                    Target "_HandlePackageFileConflicts" skipped, due to false condition; ('@(Reference)' != '' Or '@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '' Or '' != '').
                    Target "ImplicitlyExpandNETStandardFacades" skipped, due to false condition; ('$(ImplicitlyExpandNETStandardFacades)' == 'true') was evaluated as ('' == 'true').
-23:52:26.713     1>Target "ResolveAssemblyReferences: (TargetId:21)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ResolveReferences" depends on it):
+17:55:08.106     1>Target "ResolveAssemblyReferences: (TargetId:21)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ResolveReferences" depends on it):
                    Added Item(s): 
                        _ReferenceInstalledAssemblyDirectory=
                            C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
@@ -2865,20 +2864,20 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                    Set Property: ResolveAssemblyReferencesFindRelatedFiles=true
                    Set Property: FindDependenciesOfExternallyResolvedReferences=false
                    Task "ResolveAssemblyReference" skipped, due to false condition; ('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '') was evaluated as (''!='' or ''!='' or '' != '').
-23:52:26.713     1>Done building target "ResolveAssemblyReferences" in project "SDLProject.vcxproj".: (TargetId:21)
+17:55:08.106     1>Done building target "ResolveAssemblyReferences" in project "SDLProject.vcxproj".: (TargetId:21)
                    Target "GenerateBindingRedirects" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true') was evaluated as ('' == 'true' and 'true' == 'true').
                    Target "_RemoveZipFileSuggestedRedirect" skipped, due to false condition; ('$(_TargetFrameworkVersionWithoutV)' >= '4.7.1' And '$(AllowZipFileRedirect)' != 'true') was evaluated as ('4.0' >= '4.7.1' And '' != 'true').
                    Target "GenerateBindingRedirectsUpdateAppConfig" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)')) was evaluated as ('' == 'true' and 'true' == 'true' and Exists('Debug\SDLProject.exe.config')).
                    Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
-23:52:26.713     1>Target "AfterResolveReferences: (TargetId:22)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ResolveReferences" depends on it):
-23:52:26.713     1>Done building target "AfterResolveReferences" in project "SDLProject.vcxproj".: (TargetId:22)
+17:55:08.106     1>Target "AfterResolveReferences: (TargetId:22)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ResolveReferences" depends on it):
+17:55:08.106     1>Done building target "AfterResolveReferences" in project "SDLProject.vcxproj".: (TargetId:22)
                    Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
                    Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
-23:52:26.713     1>Target "ResolveReferences: (TargetId:23)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "Build" depends on it):
-23:52:26.713     1>Done building target "ResolveReferences" in project "SDLProject.vcxproj".: (TargetId:23)
+17:55:08.106     1>Target "ResolveReferences: (TargetId:23)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "Build" depends on it):
+17:55:08.106     1>Done building target "ResolveReferences" in project "SDLProject.vcxproj".: (TargetId:23)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "PrepareForBuild" skipped. Previously built successfully.
-23:52:26.713     1>Target "InitializeBuildStatus: (TargetId:24)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "Build" depends on it):
+17:55:08.106     1>Target "InitializeBuildStatus: (TargetId:24)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "Build" depends on it):
                    Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "ReadLinesFromFile" (TaskId:17)
                      Task Parameter:File=Debug\SDLProject.tlog\SDLProject.lastbuildstate (TaskId:17)
@@ -2906,33 +2905,33 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                      Task Parameter:Files=Debug\SDLProject.tlog\unsuccessfulbuild (TaskId:19)
                      Touching "Debug\SDLProject.tlog\unsuccessfulbuild". (TaskId:19)
                    Done executing task "Touch". (TaskId:19)
-23:52:26.715     1>Done building target "InitializeBuildStatus" in project "SDLProject.vcxproj".: (TargetId:24)
+17:55:08.111     1>Done building target "InitializeBuildStatus" in project "SDLProject.vcxproj".: (TargetId:24)
                    Target "PrepareProjectReferences" skipped. Previously built successfully.
-23:52:26.715     1>Target "BuildGenerateSourcesTraverse: (TargetId:25)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "BuildGenerateSources" depends on it):
+17:55:08.112     1>Target "BuildGenerateSourcesTraverse: (TargetId:25)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "BuildGenerateSources" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != '' and '' == 'true').
-23:52:26.715     1>Done building target "BuildGenerateSourcesTraverse" in project "SDLProject.vcxproj".: (TargetId:25)
+17:55:08.112     1>Done building target "BuildGenerateSourcesTraverse" in project "SDLProject.vcxproj".: (TargetId:25)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "ResolveReferences" skipped. Previously built successfully.
-23:52:26.715     1>Target "BeforeBuildGenerateSources: (TargetId:26)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-23:52:26.715     1>Done building target "BeforeBuildGenerateSources" in project "SDLProject.vcxproj".: (TargetId:26)
-23:52:26.715     1>Target "PreBuildEvent: (TargetId:27)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+17:55:08.112     1>Target "BeforeBuildGenerateSources: (TargetId:26)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+17:55:08.112     1>Done building target "BeforeBuildGenerateSources" in project "SDLProject.vcxproj".: (TargetId:26)
+17:55:08.112     1>Target "PreBuildEvent: (TargetId:27)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
                    Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
                    Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
-23:52:26.715     1>Done building target "PreBuildEvent" in project "SDLProject.vcxproj".: (TargetId:27)
+17:55:08.112     1>Done building target "PreBuildEvent" in project "SDLProject.vcxproj".: (TargetId:27)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "InitializeBuildStatus" skipped. Previously built successfully.
                    Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
                    Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') was evaluated as ('' != '' and '' != 'true').
-23:52:26.715     1>Target "_SelectedFiles: (TargetId:28)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "SelectCustomBuild" depends on it):
-23:52:26.715     1>Done building target "_SelectedFiles" in project "SDLProject.vcxproj".: (TargetId:28)
-23:52:26.715     1>Target "SelectCustomBuild: (TargetId:29)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "CustomBuild" depends on it):
-23:52:26.715     1>Done building target "SelectCustomBuild" in project "SDLProject.vcxproj".: (TargetId:29)
-23:52:26.715     1>Target "ComputeCustomBuildOutput: (TargetId:30)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "CustomBuild" depends on it):
+17:55:08.112     1>Target "_SelectedFiles: (TargetId:28)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "SelectCustomBuild" depends on it):
+17:55:08.112     1>Done building target "_SelectedFiles" in project "SDLProject.vcxproj".: (TargetId:28)
+17:55:08.112     1>Target "SelectCustomBuild: (TargetId:29)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "CustomBuild" depends on it):
+17:55:08.112     1>Done building target "SelectCustomBuild" in project "SDLProject.vcxproj".: (TargetId:29)
+17:55:08.113     1>Target "ComputeCustomBuildOutput: (TargetId:30)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "CustomBuild" depends on it):
                    Task "CreateItem" skipped, due to false condition; ('%(CustomBuildOutputs.OutputItemType)'!='') was evaluated as (''!='').
                    Task "MakeDir" (TaskId:20)
                    Done executing task "MakeDir". (TaskId:20)
-23:52:26.716     1>Done building target "ComputeCustomBuildOutput" in project "SDLProject.vcxproj".: (TargetId:30)
-23:52:26.716     1>Target "CustomBuild: (TargetId:31)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+17:55:08.113     1>Done building target "ComputeCustomBuildOutput" in project "SDLProject.vcxproj".: (TargetId:30)
+17:55:08.113     1>Target "CustomBuild: (TargetId:31)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
                    Set Property: CustomBuildToolArchitecture=Native32Bit
                    Using "GetOutOfDateItems" task from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Build.CppTasks.Common.dll".
                    Task "GetOutOfDateItems" (TaskId:21)
@@ -2952,12 +2951,12 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                    Done executing task "GetOutOfDateItems". (TaskId:22)
                    Task "ParallelCustomBuild" skipped, due to false condition; ('@(_ParallelCustomBuild)' != '') was evaluated as ('' != '').
                    Task "CustomBuild" skipped, due to false condition; ('@(_CustomBuild)' != '') was evaluated as ('' != '').
-23:52:26.716     1>Done building target "CustomBuild" in project "SDLProject.vcxproj".: (TargetId:31)
+17:55:08.115     1>Done building target "CustomBuild" in project "SDLProject.vcxproj".: (TargetId:31)
                    Target "FxExport" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
                    Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
                    Target "_CreateCopyFileItems" skipped, due to false condition; ('@(CopyFileToFolders)' != '') was evaluated as ('' != '').
                    Target "_SelectedFiles" skipped. Previously built successfully.
-23:52:26.716     1>Target "CopyFileToFolders: (TargetId:32)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+17:55:08.115     1>Target "CopyFileToFolders: (TargetId:32)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
                    Task "GetOutOfDateItems" (TaskId:23)
                      Task Parameter:OutputsMetadataName=FullDestinationPath (TaskId:23)
                      Task Parameter:CommandMetadataName=FullDestinationPath (TaskId:23)
@@ -2965,54 +2964,54 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                      Task Parameter:TLogNamePrefix=CopyFile (TaskId:23)
                    Done executing task "GetOutOfDateItems". (TaskId:23)
                    Task "Copy" skipped, due to false condition; ('@(_OutOfDateCopyFile)' != '') was evaluated as ('' != '').
-23:52:26.717     1>Done building target "CopyFileToFolders" in project "SDLProject.vcxproj".: (TargetId:32)
+17:55:08.116     1>Done building target "CopyFileToFolders" in project "SDLProject.vcxproj".: (TargetId:32)
                    Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
-23:52:26.717     1>Target "_Xsd: (TargetId:33)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-23:52:26.717     1>Done building target "_Xsd" in project "SDLProject.vcxproj".: (TargetId:33)
-23:52:26.717     1>Target "MakeDirsForMidl: (TargetId:34)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Midl" depends on it):
+17:55:08.116     1>Target "_Xsd: (TargetId:33)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+17:55:08.116     1>Done building target "_Xsd" in project "SDLProject.vcxproj".: (TargetId:33)
+17:55:08.116     1>Target "MakeDirsForMidl: (TargetId:34)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Midl" depends on it):
                    Set Property: Midl_OutputDir=
                    Task "Makedir" (TaskId:24)
                    Done executing task "Makedir". (TaskId:24)
-23:52:26.717     1>Done building target "MakeDirsForMidl" in project "SDLProject.vcxproj".: (TargetId:34)
+17:55:08.116     1>Done building target "MakeDirsForMidl" in project "SDLProject.vcxproj".: (TargetId:34)
                    Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
                    Target "FxExport" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
                    Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
-23:52:26.717     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:35)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Midl" depends on it):
+17:55:08.116     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:35)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Midl" depends on it):
                    Set Property: Midl_OutputDir=
-23:52:26.717     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "SDLProject.vcxproj".: (TargetId:35)
-23:52:26.717     1>Target "AfterMidl: (TargetId:36)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Midl" depends on it):
-23:52:26.717     1>Done building target "AfterMidl" in project "SDLProject.vcxproj".: (TargetId:36)
-23:52:26.717     1>Target "_Midl: (TargetId:37)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-23:52:26.717     1>Done building target "_Midl" in project "SDLProject.vcxproj".: (TargetId:37)
-23:52:26.717     1>Target "AfterBuildGenerateSources: (TargetId:38)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-23:52:26.717     1>Done building target "AfterBuildGenerateSources" in project "SDLProject.vcxproj".: (TargetId:38)
-23:52:26.717     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:39)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-23:52:26.717     1>Done building target "AfterBuildGenerateSourcesEvent" in project "SDLProject.vcxproj".: (TargetId:39)
-23:52:26.717     1>Target "_BuildGenerateSourcesAction: (TargetId:40)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "BuildGenerateSources" depends on it):
-23:52:26.717     1>Done building target "_BuildGenerateSourcesAction" in project "SDLProject.vcxproj".: (TargetId:40)
-23:52:26.717     1>Target "BuildGenerateSources: (TargetId:41)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "Build" depends on it):
-23:52:26.717     1>Done building target "BuildGenerateSources" in project "SDLProject.vcxproj".: (TargetId:41)
+17:55:08.116     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "SDLProject.vcxproj".: (TargetId:35)
+17:55:08.116     1>Target "AfterMidl: (TargetId:36)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Midl" depends on it):
+17:55:08.116     1>Done building target "AfterMidl" in project "SDLProject.vcxproj".: (TargetId:36)
+17:55:08.116     1>Target "_Midl: (TargetId:37)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+17:55:08.116     1>Done building target "_Midl" in project "SDLProject.vcxproj".: (TargetId:37)
+17:55:08.116     1>Target "AfterBuildGenerateSources: (TargetId:38)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+17:55:08.116     1>Done building target "AfterBuildGenerateSources" in project "SDLProject.vcxproj".: (TargetId:38)
+17:55:08.116     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:39)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+17:55:08.116     1>Done building target "AfterBuildGenerateSourcesEvent" in project "SDLProject.vcxproj".: (TargetId:39)
+17:55:08.116     1>Target "_BuildGenerateSourcesAction: (TargetId:40)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "BuildGenerateSources" depends on it):
+17:55:08.116     1>Done building target "_BuildGenerateSourcesAction" in project "SDLProject.vcxproj".: (TargetId:40)
+17:55:08.116     1>Target "BuildGenerateSources: (TargetId:41)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "Build" depends on it):
+17:55:08.116     1>Done building target "BuildGenerateSources" in project "SDLProject.vcxproj".: (TargetId:41)
                    Target "PrepareProjectReferences" skipped. Previously built successfully.
-23:52:26.717     1>Target "BuildCompileTraverse: (TargetId:42)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "BuildCompile" depends on it):
+17:55:08.117     1>Target "BuildCompileTraverse: (TargetId:42)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "BuildCompile" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
-23:52:26.717     1>Done building target "BuildCompileTraverse" in project "SDLProject.vcxproj".: (TargetId:42)
+17:55:08.117     1>Done building target "BuildCompileTraverse" in project "SDLProject.vcxproj".: (TargetId:42)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "ResolveReferences" skipped. Previously built successfully.
-23:52:26.717     1>Target "BeforeClCompile: (TargetId:43)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_ClCompile" depends on it):
-23:52:26.717     1>Done building target "BeforeClCompile" in project "SDLProject.vcxproj".: (TargetId:43)
+17:55:08.117     1>Target "BeforeClCompile: (TargetId:43)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_ClCompile" depends on it):
+17:55:08.117     1>Done building target "BeforeClCompile" in project "SDLProject.vcxproj".: (TargetId:43)
                    Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
                    Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
-23:52:26.717     1>Target "ComputeCLInputPDBName: (TargetId:44)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_ClCompile" depends on it):
-23:52:26.717     1>Done building target "ComputeCLInputPDBName" in project "SDLProject.vcxproj".: (TargetId:44)
+17:55:08.117     1>Target "ComputeCLInputPDBName: (TargetId:44)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_ClCompile" depends on it):
+17:55:08.117     1>Done building target "ComputeCLInputPDBName" in project "SDLProject.vcxproj".: (TargetId:44)
                    Target "ResolveReferences" skipped. Previously built successfully.
-23:52:26.717     1>Target "FindReferenceAssembliesForReferences: (TargetId:45)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ComputeReferenceCLInput" depends on it):
-23:52:26.717     1>Done building target "FindReferenceAssembliesForReferences" in project "SDLProject.vcxproj".: (TargetId:45)
-23:52:26.717     1>Target "ComputeReferenceCLInput: (TargetId:46)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_ClCompile" depends on it):
+17:55:08.117     1>Target "FindReferenceAssembliesForReferences: (TargetId:45)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ComputeReferenceCLInput" depends on it):
+17:55:08.117     1>Done building target "FindReferenceAssembliesForReferences" in project "SDLProject.vcxproj".: (TargetId:45)
+17:55:08.117     1>Target "ComputeReferenceCLInput: (TargetId:46)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_ClCompile" depends on it):
                    Task "WriteLinesToFile" skipped, due to false condition; ('@(_ReferenceCopyLocalPaths)'!='' and '$(DesignTimeBuild)' != 'true') was evaluated as (''!='' and '' != 'true').
                    Task "WriteLinesToFile" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)'!='' and '$(DesignTimeBuild)' != 'true') was evaluated as (''!='' and '' != 'true').
                    Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
-23:52:26.718     1>Done building target "ComputeReferenceCLInput" in project "SDLProject.vcxproj".: (TargetId:46)
-23:52:26.718     1>Target "WarnCompileDuplicatedFilename: (TargetId:47)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_ClCompile" depends on it):
+17:55:08.118     1>Done building target "ComputeReferenceCLInput" in project "SDLProject.vcxproj".: (TargetId:46)
+17:55:08.118     1>Target "WarnCompileDuplicatedFilename: (TargetId:47)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_ClCompile" depends on it):
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'Effects.cpp' != 'Effects.cpp' and 'Debug\' == 'Debug\').
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'Entity.cpp' != 'Entity.cpp' and 'Debug\' == 'Debug\').
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'Level1.cpp' != 'Level1.cpp' and 'Debug\' == 'Debug\').
@@ -3023,10 +3022,10 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'Scene.cpp' != 'Scene.cpp' and 'Debug\' == 'Debug\').
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'ShaderProgram.cpp' != 'ShaderProgram.cpp' and 'Debug\' == 'Debug\').
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'Util.cpp' != 'Util.cpp' and 'Debug\' == 'Debug\').
-23:52:26.719     1>Done building target "WarnCompileDuplicatedFilename" in project "SDLProject.vcxproj".: (TargetId:47)
-23:52:26.719     1>Target "FixupCLCompileOptions: (TargetId:48)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_ClCompile" depends on it):
-23:52:26.719     1>Done building target "FixupCLCompileOptions" in project "SDLProject.vcxproj".: (TargetId:48)
-23:52:26.719     1>Target "MakeDirsForCl: (TargetId:49)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_ClCompile" depends on it):
+17:55:08.121     1>Done building target "WarnCompileDuplicatedFilename" in project "SDLProject.vcxproj".: (TargetId:47)
+17:55:08.121     1>Target "FixupCLCompileOptions: (TargetId:48)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_ClCompile" depends on it):
+17:55:08.122     1>Done building target "FixupCLCompileOptions" in project "SDLProject.vcxproj".: (TargetId:48)
+17:55:08.122     1>Target "MakeDirsForCl: (TargetId:49)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_ClCompile" depends on it):
                    Added Item(s): ClDirsToMake=C:\Users\Owner\Documents\CSUY3113\P5\Debug
                    Added Item(s): ClDirsToMake=C:\Users\Owner\Documents\CSUY3113\P5\Debug
                    Added Item(s): ClDirsToMake=C:\Users\Owner\Documents\CSUY3113\P5\Debug
@@ -3045,7 +3044,7 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                            C:\Users\Owner\Documents\CSUY3113\P5\Debug
                            C:\Users\Owner\Documents\CSUY3113\P5\Debug
                            C:\Users\Owner\Documents\CSUY3113\P5\Debug
-23:52:26.720     1>Done building target "MakeDirsForCl" in project "SDLProject.vcxproj".: (TargetId:49)
+17:55:08.123     1>Done building target "MakeDirsForCl" in project "SDLProject.vcxproj".: (TargetId:49)
                    Target "_SelectedFiles" skipped. Previously built successfully.
                    Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
                    Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
@@ -3054,11 +3053,11 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                    Target "WarnCompileDuplicatedFilename" skipped. Previously built successfully.
                    Target "FixupCLCompileOptions" skipped. Previously built successfully.
                    Target "SelectCustomBuild" skipped. Previously built successfully.
-23:52:26.720     1>Target "SelectClCompile: (TargetId:50)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ClCompile" depends on it):
-23:52:26.720     1>Done building target "SelectClCompile" in project "SDLProject.vcxproj".: (TargetId:50)
+17:55:08.123     1>Target "SelectClCompile: (TargetId:50)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ClCompile" depends on it):
+17:55:08.123     1>Done building target "SelectClCompile" in project "SDLProject.vcxproj".: (TargetId:50)
                    Target "SelectAnalysisManifest" skipped, due to false condition; ('$(RunMsvcAnalysis)'=='true' and '$(SelectedFiles)'!='') was evaluated as ('false'=='true' and ''!='').
                    Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('Effects.cpp;Entity.cpp;Level1.cpp;Level2.cpp;Level3.cpp;main.cpp;map.cpp;Scene.cpp;ShaderProgram.cpp;Util.cpp' != '' and 'false' == 'True').
-23:52:26.720     1>Target "ClCompile: (TargetId:51)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_ClCompile" depends on it):
+17:55:08.123     1>Target "ClCompile: (TargetId:51)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_ClCompile" depends on it):
                    Set Property: CLToolArchitecture=Native32Bit
                    Task "Delete" skipped, due to false condition; ('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'None' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName))) was evaluated as ('EditAndContinue' != '' and 'EditAndContinue' != 'None' and 'EditAndContinue' != 'OldStyle' and 'Debug\vc142.pdb' != '' and !Exists(Debug\vc142.pdb)).
                    Task "MultiToolTask" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(ClCompile.CompilerIteration)' == '' and '$(MultiProcCL)' == 'true') was evaluated as ('' != 'true' and '' == '' and 'false' == 'true').
@@ -3906,46 +3905,46 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                      	C:\USERS\OWNER\DOCUMENTS\CSUY3113\P5\DEBUG\UTIL.OBJ (TaskId:26)
                      All outputs are up-to-date. (TaskId:26)
                    Done executing task "CL". (TaskId:26)
-23:52:26.757     1>Done building target "ClCompile" in project "SDLProject.vcxproj".: (TargetId:51)
+17:55:08.186     1>Done building target "ClCompile" in project "SDLProject.vcxproj".: (TargetId:51)
                    Target "RunSelectedFileNativeCodeAnalysis" skipped, due to false condition; ('$(RunMsvcAnalysis)'=='true' and '$(SelectedFiles)'!='') was evaluated as ('false'=='true' and ''!='').
                    Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('Effects.cpp;Entity.cpp;Level1.cpp;Level2.cpp;Level3.cpp;main.cpp;map.cpp;Scene.cpp;ShaderProgram.cpp;Util.cpp' != '' and 'false' == 'True').
                    Target "NoAnalysisToolEnabledWarning" skipped, due to false condition; ('$(RunCppAnalysis)'=='true' AND '$(EnableMicrosoftCodeAnalysis)'=='false' AND '$(EnableClangTidyCodeAnalysis)'=='false') was evaluated as ('false'=='true' AND 'true'=='false' AND 'false'=='false').
                    Target "RunSelectedFileClangTidy" skipped, due to false condition; ('$(RunClangCppAnalysis)'=='true' AND '$(SelectedFiles)'!='') was evaluated as ('false'=='true' AND ''!='').
                    Target "MicrosoftAnalysisIncompatiableWithClangCl" skipped, due to false condition; ('$(RunCppAnalysis)'=='true' AND '$(EnableMicrosoftCodeAnalysis)'=='true' AND '$(UseClangCl)'=='true') was evaluated as ('false'=='true' AND 'true'=='true' AND ''=='true').
-23:52:26.757     1>Target "AfterClCompile: (TargetId:52)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_ClCompile" depends on it):
-23:52:26.757     1>Done building target "AfterClCompile" in project "SDLProject.vcxproj".: (TargetId:52)
-23:52:26.757     1>Target "_ClCompile: (TargetId:53)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildCompileAction" depends on it):
-23:52:26.757     1>Done building target "_ClCompile" in project "SDLProject.vcxproj".: (TargetId:53)
+17:55:08.186     1>Target "AfterClCompile: (TargetId:52)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_ClCompile" depends on it):
+17:55:08.186     1>Done building target "AfterClCompile" in project "SDLProject.vcxproj".: (TargetId:52)
+17:55:08.186     1>Target "_ClCompile: (TargetId:53)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildCompileAction" depends on it):
+17:55:08.186     1>Done building target "_ClCompile" in project "SDLProject.vcxproj".: (TargetId:53)
                    Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
-23:52:26.757     1>Target "BeforeResourceCompile: (TargetId:54)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_ResourceCompile" depends on it):
-23:52:26.757     1>Done building target "BeforeResourceCompile" in project "SDLProject.vcxproj".: (TargetId:54)
-23:52:26.757     1>Target "MakeDirsForResourceCompile: (TargetId:55)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_ResourceCompile" depends on it):
+17:55:08.186     1>Target "BeforeResourceCompile: (TargetId:54)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_ResourceCompile" depends on it):
+17:55:08.186     1>Done building target "BeforeResourceCompile" in project "SDLProject.vcxproj".: (TargetId:54)
+17:55:08.186     1>Target "MakeDirsForResourceCompile: (TargetId:55)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_ResourceCompile" depends on it):
                    Added Item(s): RcDirsToMake=C:\Users\Owner\Documents\CSUY3113\P5\Debug
                    Task "MakeDir" (TaskId:27)
                      Task Parameter:Directories=C:\Users\Owner\Documents\CSUY3113\P5\Debug (TaskId:27)
                    Done executing task "MakeDir". (TaskId:27)
                    Removed Item(s): RcDirsToMake=C:\Users\Owner\Documents\CSUY3113\P5\Debug
-23:52:26.757     1>Done building target "MakeDirsForResourceCompile" in project "SDLProject.vcxproj".: (TargetId:55)
+17:55:08.187     1>Done building target "MakeDirsForResourceCompile" in project "SDLProject.vcxproj".: (TargetId:55)
                    Target "ResourceCompile" skipped, due to false condition; ('@(ResourceCompile)' != '') was evaluated as ('' != '').
-23:52:26.757     1>Target "AfterResourceCompile: (TargetId:56)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_ResourceCompile" depends on it):
-23:52:26.757     1>Done building target "AfterResourceCompile" in project "SDLProject.vcxproj".: (TargetId:56)
-23:52:26.757     1>Target "_ResourceCompile: (TargetId:57)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildCompileAction" depends on it):
-23:52:26.757     1>Done building target "_ResourceCompile" in project "SDLProject.vcxproj".: (TargetId:57)
+17:55:08.187     1>Target "AfterResourceCompile: (TargetId:56)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_ResourceCompile" depends on it):
+17:55:08.187     1>Done building target "AfterResourceCompile" in project "SDLProject.vcxproj".: (TargetId:56)
+17:55:08.187     1>Target "_ResourceCompile: (TargetId:57)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildCompileAction" depends on it):
+17:55:08.187     1>Done building target "_ResourceCompile" in project "SDLProject.vcxproj".: (TargetId:57)
                    Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
                    Target "_Lib" skipped, due to false condition; ('$(LibCompiled)' == 'true') was evaluated as ('' == 'true').
-23:52:26.757     1>Target "AfterBuildCompileEvent: (TargetId:58)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildCompileAction" depends on it):
-23:52:26.757     1>Done building target "AfterBuildCompileEvent" in project "SDLProject.vcxproj".: (TargetId:58)
-23:52:26.757     1>Target "_BuildCompileAction: (TargetId:59)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "BuildCompile" depends on it):
-23:52:26.757     1>Done building target "_BuildCompileAction" in project "SDLProject.vcxproj".: (TargetId:59)
-23:52:26.757     1>Target "BuildCompile: (TargetId:60)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "Build" depends on it):
-23:52:26.757     1>Done building target "BuildCompile" in project "SDLProject.vcxproj".: (TargetId:60)
+17:55:08.187     1>Target "AfterBuildCompileEvent: (TargetId:58)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildCompileAction" depends on it):
+17:55:08.187     1>Done building target "AfterBuildCompileEvent" in project "SDLProject.vcxproj".: (TargetId:58)
+17:55:08.187     1>Target "_BuildCompileAction: (TargetId:59)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "BuildCompile" depends on it):
+17:55:08.187     1>Done building target "_BuildCompileAction" in project "SDLProject.vcxproj".: (TargetId:59)
+17:55:08.187     1>Target "BuildCompile: (TargetId:60)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "Build" depends on it):
+17:55:08.187     1>Done building target "BuildCompile" in project "SDLProject.vcxproj".: (TargetId:60)
                    Target "PrepareProjectReferences" skipped. Previously built successfully.
-23:52:26.757     1>Target "BuildLinkTraverse: (TargetId:61)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "BuildLink" depends on it):
+17:55:08.187     1>Target "BuildLinkTraverse: (TargetId:61)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "BuildLink" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
-23:52:26.757     1>Done building target "BuildLinkTraverse" in project "SDLProject.vcxproj".: (TargetId:61)
+17:55:08.187     1>Done building target "BuildLinkTraverse" in project "SDLProject.vcxproj".: (TargetId:61)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "ResolveReferences" skipped. Previously built successfully.
-23:52:26.757     1>Target "ComputeLegacyManifestEmbedding: (TargetId:62)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildLinkAction" depends on it):
+17:55:08.187     1>Target "ComputeLegacyManifestEmbedding: (TargetId:62)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildLinkAction" depends on it):
                    Added Item(s): 
                        Manifest=
                            temp
@@ -3975,15 +3974,15 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                                    UpdateFileHashes=false
                                    VerboseOutput=true
                                    _LocalVariable=true
-23:52:26.758     1>Done building target "ComputeLegacyManifestEmbedding" in project "SDLProject.vcxproj".: (TargetId:62)
-23:52:26.758     1>Target "BeforeLink: (TargetId:63)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Link" depends on it):
-23:52:26.758     1>Done building target "BeforeLink" in project "SDLProject.vcxproj".: (TargetId:63)
-23:52:26.758     1>Target "ComputeRCOutputs: (TargetId:64)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ComputeRCGeneratedLinkInputs" depends on it):
-23:52:26.758     1>Done building target "ComputeRCOutputs" in project "SDLProject.vcxproj".: (TargetId:64)
-23:52:26.758     1>Target "ComputeRCGeneratedLinkInputs: (TargetId:65)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Link" depends on it):
-23:52:26.758     1>Done building target "ComputeRCGeneratedLinkInputs" in project "SDLProject.vcxproj".: (TargetId:65)
-23:52:26.758     1>Target "ComputeManifestGeneratedLinkerInputs: (TargetId:66)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Link" depends on it):
-23:52:26.758     1>Done building target "ComputeManifestGeneratedLinkerInputs" in project "SDLProject.vcxproj".: (TargetId:66)
+17:55:08.188     1>Done building target "ComputeLegacyManifestEmbedding" in project "SDLProject.vcxproj".: (TargetId:62)
+17:55:08.188     1>Target "BeforeLink: (TargetId:63)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Link" depends on it):
+17:55:08.188     1>Done building target "BeforeLink" in project "SDLProject.vcxproj".: (TargetId:63)
+17:55:08.188     1>Target "ComputeRCOutputs: (TargetId:64)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ComputeRCGeneratedLinkInputs" depends on it):
+17:55:08.188     1>Done building target "ComputeRCOutputs" in project "SDLProject.vcxproj".: (TargetId:64)
+17:55:08.188     1>Target "ComputeRCGeneratedLinkInputs: (TargetId:65)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Link" depends on it):
+17:55:08.188     1>Done building target "ComputeRCGeneratedLinkInputs" in project "SDLProject.vcxproj".: (TargetId:65)
+17:55:08.188     1>Target "ComputeManifestGeneratedLinkerInputs: (TargetId:66)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Link" depends on it):
+17:55:08.188     1>Done building target "ComputeManifestGeneratedLinkerInputs" in project "SDLProject.vcxproj".: (TargetId:66)
                    Target "ComputeCustomBuildOutput" skipped. Previously built successfully.
                    Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
                    Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
@@ -3991,7 +3990,7 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                    Target "ComputeReferenceCLInput" skipped. Previously built successfully.
                    Target "WarnCompileDuplicatedFilename" skipped. Previously built successfully.
                    Target "FixupCLCompileOptions" skipped. Previously built successfully.
-23:52:26.758     1>Target "ComputeCLOutputs: (TargetId:67)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ComputeCLGeneratedLinkInputs" depends on it):
+17:55:08.188     1>Target "ComputeCLOutputs: (TargetId:67)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ComputeCLGeneratedLinkInputs" depends on it):
                    Added Item(s): 
                        Obj=
                            Debug\Effects.obj
@@ -4714,8 +4713,8 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                                    WholeProgramOptimization=false
                                    WinRTNoStdLib=false
                                    XMLDocumentationFileName=Debug\
-23:52:26.763     1>Done building target "ComputeCLOutputs" in project "SDLProject.vcxproj".: (TargetId:67)
-23:52:26.763     1>Target "ComputeCLGeneratedLinkInputs: (TargetId:68)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Link" depends on it):
+17:55:08.199     1>Done building target "ComputeCLOutputs" in project "SDLProject.vcxproj".: (TargetId:67)
+17:55:08.199     1>Target "ComputeCLGeneratedLinkInputs: (TargetId:68)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Link" depends on it):
                    Added Item(s): 
                        Link=
                            Debug\Effects.obj
@@ -5108,11 +5107,11 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                                    TypeLibraryResourceID=1
                                    UACExecutionLevel=AsInvoker
                                    UACUIAccess=false
-23:52:26.763     1>Done building target "ComputeCLGeneratedLinkInputs" in project "SDLProject.vcxproj".: (TargetId:68)
-23:52:26.763     1>Target "ComputeLinkInputsFromProject: (TargetId:69)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Link" depends on it):
-23:52:26.763     1>Done building target "ComputeLinkInputsFromProject" in project "SDLProject.vcxproj".: (TargetId:69)
+17:55:08.200     1>Done building target "ComputeCLGeneratedLinkInputs" in project "SDLProject.vcxproj".: (TargetId:68)
+17:55:08.200     1>Target "ComputeLinkInputsFromProject: (TargetId:69)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Link" depends on it):
+17:55:08.200     1>Done building target "ComputeLinkInputsFromProject" in project "SDLProject.vcxproj".: (TargetId:69)
                    Target "ComputeReferenceLinkInputs" skipped, due to false condition; (@(ProjectReference) != '') was evaluated as ( != '').
-23:52:26.764     1>Target "ComputeManifestInputsTargets: (TargetId:70)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Link" depends on it):
+17:55:08.200     1>Target "ComputeManifestInputsTargets: (TargetId:70)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Link" depends on it):
                    Added Item(s): 
                        Manifest=
                            temp
@@ -5143,10 +5142,10 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                                    UpdateFileHashes=false
                                    VerboseOutput=true
                                    _LocalVariable=true
-23:52:26.764     1>Done building target "ComputeManifestInputsTargets" in project "SDLProject.vcxproj".: (TargetId:70)
+17:55:08.200     1>Done building target "ComputeManifestInputsTargets" in project "SDLProject.vcxproj".: (TargetId:70)
                    Target "ManifestResourceCompile" skipped, due to false condition; ('$(EmbedManifestBy)' == 'LINK' and '@(Manifest)' != '') was evaluated as ('LINK' == 'LINK' and '' != '').
                    Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
-23:52:26.764     1>Target "AssignTargetPaths: (TargetId:71)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "PrepareResourceNames" depends on it):
+17:55:08.201     1>Target "AssignTargetPaths: (TargetId:71)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "PrepareResourceNames" depends on it):
                    Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "AssignTargetPath" (TaskId:28)
                      Task Parameter:RootFolder=C:\Users\Owner\Documents\CSUY3113\P5 (TaskId:28)
@@ -5161,9 +5160,9 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                      Task Parameter:RootFolder=C:\Users\Owner\Documents\CSUY3113\P5 (TaskId:31)
                    Done executing task "AssignTargetPath". (TaskId:31)
                    Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and ''=='.manifest').
-23:52:26.764     1>Done building target "AssignTargetPaths" in project "SDLProject.vcxproj".: (TargetId:71)
+17:55:08.203     1>Done building target "AssignTargetPaths" in project "SDLProject.vcxproj".: (TargetId:71)
                    Target "AssignTargetPaths" skipped. Previously built successfully.
-23:52:26.764     1>Target "SplitResourcesByCulture: (TargetId:72)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "PrepareResourceNames" depends on it):
+17:55:08.203     1>Target "SplitResourcesByCulture: (TargetId:72)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "PrepareResourceNames" depends on it):
                    Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
                    Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
                    Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
@@ -5171,13 +5170,13 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                    Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "AssignCulture" (TaskId:32)
                    Done executing task "AssignCulture". (TaskId:32)
-23:52:26.765     1>Done building target "SplitResourcesByCulture" in project "SDLProject.vcxproj".: (TargetId:72)
+17:55:08.209     1>Done building target "SplitResourcesByCulture" in project "SDLProject.vcxproj".: (TargetId:72)
                    Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
-23:52:26.765     1>Target "CreateCustomManifestResourceNames: (TargetId:73)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "PrepareResourceNames" depends on it):
-23:52:26.765     1>Done building target "CreateCustomManifestResourceNames" in project "SDLProject.vcxproj".: (TargetId:73)
-23:52:26.765     1>Target "PrepareResourceNames: (TargetId:74)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Link" depends on it):
-23:52:26.765     1>Done building target "PrepareResourceNames" in project "SDLProject.vcxproj".: (TargetId:74)
-23:52:26.765     1>Target "MakeDirsForLink: (TargetId:75)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Link" depends on it):
+17:55:08.209     1>Target "CreateCustomManifestResourceNames: (TargetId:73)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "PrepareResourceNames" depends on it):
+17:55:08.209     1>Done building target "CreateCustomManifestResourceNames" in project "SDLProject.vcxproj".: (TargetId:73)
+17:55:08.209     1>Target "PrepareResourceNames: (TargetId:74)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Link" depends on it):
+17:55:08.209     1>Done building target "PrepareResourceNames" in project "SDLProject.vcxproj".: (TargetId:74)
+17:55:08.209     1>Target "MakeDirsForLink: (TargetId:75)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Link" depends on it):
                    Set Property: _LinkImportLibrary=C:\Users\Owner\Documents\CSUY3113\P5\Debug\SDLProject.lib
                    Added Item(s): _LinkImportLibraryFile=C:\Users\Owner\Documents\CSUY3113\P5\Debug\SDLProject.lib
                    Added Item(s): LinkDirsToMake=C:\Users\Owner\Documents\CSUY3113\P5\Debug
@@ -5199,25 +5198,25 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                            C:\Users\Owner\Documents\CSUY3113\P5\Debug
                            C:\Users\Owner\Documents\CSUY3113\P5\Debug\
                    Removed Item(s): _LinkImportLibraryFile=C:\Users\Owner\Documents\CSUY3113\P5\Debug\SDLProject.lib
-23:52:26.765     1>Done building target "MakeDirsForLink" in project "SDLProject.vcxproj".: (TargetId:75)
-23:52:26.765     1>Target "DoLinkOutputFilesMatch: (TargetId:76)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Link" depends on it):
+17:55:08.211     1>Done building target "MakeDirsForLink" in project "SDLProject.vcxproj".: (TargetId:75)
+17:55:08.211     1>Target "DoLinkOutputFilesMatch: (TargetId:76)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Link" depends on it):
                    Added Item(s): _OutputFileFromLink=C:\Users\Owner\Documents\CSUY3113\P5\Debug\SDLProject.exe
                    Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' == '') was evaluated as ('C:\Users\Owner\Documents\CSUY3113\P5\Debug\SDLProject.exe' == '').
                    Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('C:\Users\Owner\Documents\CSUY3113\P5\Debug\SDLProject.exe' != '' and 'C:\Users\Owner\Documents\CSUY3113\P5\Debug\SDLProject.exe' != 'C:\Users\Owner\Documents\CSUY3113\P5\Debug\SDLProject.exe').
                    Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Extension)' != '' and '%(_OutputFileFromLink.Extension)' != '$(TargetExt)') was evaluated as ('C:\Users\Owner\Documents\CSUY3113\P5\Debug\SDLProject.exe' != '' and '.exe' != '' and '.exe' != '.exe').
                    Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Filename)' != '' and '%(_OutputFileFromLink.Filename)' != '$(TargetName)') was evaluated as ('C:\Users\Owner\Documents\CSUY3113\P5\Debug\SDLProject.exe' != '' and 'SDLProject' != '' and 'SDLProject' != 'SDLProject').
                    Task "VCMessage" skipped, due to false condition; ('%(Link.MinimumRequiredVersion)' != '' and ('%(Link.Subsystem)' == '' or '%(Link.Subsystem)' == 'NotSet')) was evaluated as ('' != '' and ('Windows' == '' or 'Windows' == 'NotSet')).
-23:52:26.766     1>Done building target "DoLinkOutputFilesMatch" in project "SDLProject.vcxproj".: (TargetId:76)
-23:52:26.766     1>Target "PreLinkEvent: (TargetId:77)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Link" depends on it):
+17:55:08.212     1>Done building target "DoLinkOutputFilesMatch" in project "SDLProject.vcxproj".: (TargetId:76)
+17:55:08.212     1>Target "PreLinkEvent: (TargetId:77)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Link" depends on it):
                    Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
                    Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
-23:52:26.766     1>Done building target "PreLinkEvent" in project "SDLProject.vcxproj".: (TargetId:77)
-23:52:26.766     1>Target "ComputeLinkSwitches: (TargetId:78)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "Link" depends on it):
+17:55:08.213     1>Done building target "PreLinkEvent" in project "SDLProject.vcxproj".: (TargetId:77)
+17:55:08.213     1>Target "ComputeLinkSwitches: (TargetId:78)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "Link" depends on it):
                    Set Property: Link_MinimalRebuildFromTracking=true
                    Set Property: LinkToolArchitecture=Native32Bit
                    Set Property: _GenerateWindowsMetadata=
-23:52:26.766     1>Done building target "ComputeLinkSwitches" in project "SDLProject.vcxproj".: (TargetId:78)
-23:52:26.766     1>Target "Link: (TargetId:79)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Link" depends on it):
+17:55:08.218     1>Done building target "ComputeLinkSwitches" in project "SDLProject.vcxproj".: (TargetId:78)
+17:55:08.218     1>Target "Link: (TargetId:79)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Link" depends on it):
                    Using "Link" task from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Build.CppTasks.Common.dll".
                    Task "Link" (TaskId:34)
                      Task Parameter:BuildingInIde=True (TaskId:34)
@@ -5808,28 +5807,28 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                    Task "VCMessage" skipped, due to false condition; (('$(EmbedManifestBy)' != 'LINK' or '$(LegacyManifestEmbedding)' != 'true' or '$(LinkSkippedExecution)' == 'true') and
                                 %(Link.GenerateDebugInformation) == 'true' and %(Link.ProgramDataBaseFileName) != '') was evaluated as (('LINK' != 'LINK' or '' != 'true' or 'True' == 'true') and
                                 DebugFastLink == 'true' and  != '').
-23:52:26.775     1>Done building target "Link" in project "SDLProject.vcxproj".: (TargetId:79)
+17:55:08.301     1>Done building target "Link" in project "SDLProject.vcxproj".: (TargetId:79)
                    Target "MetaGenInputsOutputs" skipped, due to false condition; ('$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('false' == 'True').
                    Target "ComputeMetaGenInputs" skipped, due to false condition; ('$(CLRSupport)'!='' and '$(CLRSupport)'!='false' and '$(CLRSupport)'!='NetCore') was evaluated as ('false'!='' and 'false'!='false' and 'false'!='NetCore').
                    Target "MetaGen" skipped, due to false condition; ('@(MetaGen)' != '') was evaluated as ('' != '').
                    Target "ComputeLinkImportLibraryOutputsForClean" skipped, due to false condition; ('$(LinkSkippedExecution)' != 'true') was evaluated as ('True' != 'true').
-23:52:26.775     1>Target "AfterLink: (TargetId:80)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Link" depends on it):
-23:52:26.775     1>Done building target "AfterLink" in project "SDLProject.vcxproj".: (TargetId:80)
-23:52:26.775     1>Target "_Link: (TargetId:81)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildLinkAction" depends on it):
-23:52:26.775     1>Done building target "_Link" in project "SDLProject.vcxproj".: (TargetId:81)
-23:52:26.775     1>Target "_ALink: (TargetId:82)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildLinkAction" depends on it):
-23:52:26.775     1>Done building target "_ALink" in project "SDLProject.vcxproj".: (TargetId:82)
+17:55:08.301     1>Target "AfterLink: (TargetId:80)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_Link" depends on it):
+17:55:08.301     1>Done building target "AfterLink" in project "SDLProject.vcxproj".: (TargetId:80)
+17:55:08.301     1>Target "_Link: (TargetId:81)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildLinkAction" depends on it):
+17:55:08.301     1>Done building target "_Link" in project "SDLProject.vcxproj".: (TargetId:81)
+17:55:08.301     1>Target "_ALink: (TargetId:82)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildLinkAction" depends on it):
+17:55:08.301     1>Done building target "_ALink" in project "SDLProject.vcxproj".: (TargetId:82)
                    Target "ComputeLegacyManifestEmbedding" skipped. Previously built successfully.
-23:52:26.775     1>Target "_Manifest: (TargetId:83)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildLinkAction" depends on it):
+17:55:08.301     1>Target "_Manifest: (TargetId:83)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildLinkAction" depends on it):
                    Task "CallTarget" skipped, due to false condition; ('$(LegacyManifestEmbedding)' == 'true') was evaluated as ('' == 'true').
-23:52:26.775     1>Done building target "_Manifest" in project "SDLProject.vcxproj".: (TargetId:83)
+17:55:08.301     1>Done building target "_Manifest" in project "SDLProject.vcxproj".: (TargetId:83)
                    Target "RegisterOutput" skipped, due to false condition; ('$(LinkSkippedExecution)' != 'true' and (('$(Platform)' == 'x64' and ('$(PROCESSOR_ARCHITECTURE)' == 'AMD64' or '$(PROCESSOR_ARCHITEW6432)' == 'AMD64')) or '$(Platform)' == 'Win32')) was evaluated as ('True' != 'true' and (('Win32' == 'x64' and ('x86' == 'AMD64' or 'AMD64' == 'AMD64')) or 'Win32' == 'Win32')).
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "ResolveReferences" skipped. Previously built successfully.
-23:52:26.775     1>Target "ResolvedXDCMake: (TargetId:84)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_XdcMake" depends on it):
+17:55:08.301     1>Target "ResolvedXDCMake: (TargetId:84)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_XdcMake" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true').
-23:52:26.775     1>Done building target "ResolvedXDCMake" in project "SDLProject.vcxproj".: (TargetId:84)
-23:52:26.775     1>Target "ComputeCLCompileGeneratedXDCFiles: (TargetId:85)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_XdcMake" depends on it):
+17:55:08.301     1>Done building target "ResolvedXDCMake" in project "SDLProject.vcxproj".: (TargetId:84)
+17:55:08.302     1>Target "ComputeCLCompileGeneratedXDCFiles: (TargetId:85)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_XdcMake" depends on it):
                    Added Item(s): 
                        XdcMake=
                            temp
@@ -5852,26 +5851,26 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                                    OutputFile=C:\Users\Owner\Documents\CSUY3113\P5\Debug\SDLProject.xml
                                    SuppressStartupBanner=true
                                    TrackerLogDirectory=Debug\SDLProject.tlog\
-23:52:26.775     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "SDLProject.vcxproj".: (TargetId:85)
-23:52:26.775     1>Target "MakeDirsForXdcMake: (TargetId:86)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_XdcMake" depends on it):
+17:55:08.302     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "SDLProject.vcxproj".: (TargetId:85)
+17:55:08.302     1>Target "MakeDirsForXdcMake: (TargetId:86)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_XdcMake" depends on it):
                    Task "MakeDir" (TaskId:36)
                    Done executing task "MakeDir". (TaskId:36)
-23:52:26.775     1>Done building target "MakeDirsForXdcMake" in project "SDLProject.vcxproj".: (TargetId:86)
+17:55:08.303     1>Done building target "MakeDirsForXdcMake" in project "SDLProject.vcxproj".: (TargetId:86)
                    Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
-23:52:26.775     1>Target "_XdcMake: (TargetId:87)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildLinkAction" depends on it):
-23:52:26.775     1>Done building target "_XdcMake" in project "SDLProject.vcxproj".: (TargetId:87)
-23:52:26.775     1>Target "ComputeCLCompileGeneratedSbrFiles: (TargetId:88)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BscMake" depends on it):
-23:52:26.775     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "SDLProject.vcxproj".: (TargetId:88)
-23:52:26.775     1>Target "MakeDirsForBscMake: (TargetId:89)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BscMake" depends on it):
+17:55:08.303     1>Target "_XdcMake: (TargetId:87)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildLinkAction" depends on it):
+17:55:08.303     1>Done building target "_XdcMake" in project "SDLProject.vcxproj".: (TargetId:87)
+17:55:08.303     1>Target "ComputeCLCompileGeneratedSbrFiles: (TargetId:88)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BscMake" depends on it):
+17:55:08.303     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "SDLProject.vcxproj".: (TargetId:88)
+17:55:08.303     1>Target "MakeDirsForBscMake: (TargetId:89)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BscMake" depends on it):
                    Task "MakeDir" (TaskId:37)
                    Done executing task "MakeDir". (TaskId:37)
-23:52:26.775     1>Done building target "MakeDirsForBscMake" in project "SDLProject.vcxproj".: (TargetId:89)
+17:55:08.303     1>Done building target "MakeDirsForBscMake" in project "SDLProject.vcxproj".: (TargetId:89)
                    Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
                    Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
-23:52:26.775     1>Target "_BscMake: (TargetId:90)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildLinkAction" depends on it):
-23:52:26.775     1>Done building target "_BscMake" in project "SDLProject.vcxproj".: (TargetId:90)
+17:55:08.303     1>Target "_BscMake: (TargetId:90)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildLinkAction" depends on it):
+17:55:08.303     1>Done building target "_BscMake" in project "SDLProject.vcxproj".: (TargetId:90)
                    Target "PrepareForBuild" skipped. Previously built successfully.
-23:52:26.775     1>Target "BuiltProjectOutputGroup: (TargetId:91)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "CreateRecipeFile" depends on it):
+17:55:08.303     1>Target "BuiltProjectOutputGroup: (TargetId:91)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "CreateRecipeFile" depends on it):
                    Added Item(s): 
                        _BuiltProjectOutputGroupOutputIntermediate=
                            C:\Users\Owner\Documents\CSUY3113\P5\Debug\SDLProject.exe
@@ -5881,9 +5880,9 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                            C:\Users\Owner\Documents\CSUY3113\P5\Debug\SDLProject.exe
                                    FinalOutputPath=C:\Users\Owner\Documents\CSUY3113\P5\Debug\SDLProject.exe
                                    OriginalItemSpec=C:\Users\Owner\Documents\CSUY3113\P5\Debug\SDLProject.exe
-23:52:26.776     1>Done building target "BuiltProjectOutputGroup" in project "SDLProject.vcxproj".: (TargetId:91)
+17:55:08.304     1>Done building target "BuiltProjectOutputGroup" in project "SDLProject.vcxproj".: (TargetId:91)
                    Target "PrepareResourceNames" skipped. Previously built successfully.
-23:52:26.776     1>Target "SatelliteDllsProjectOutputGroup: (TargetId:92)" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "CreateRecipeFile" depends on it):
+17:55:08.304     1>Target "SatelliteDllsProjectOutputGroup: (TargetId:92)" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "CreateRecipeFile" depends on it):
                    Task "CreateItem" skipped, due to false condition; ('@(ResxWithCulture)' != '') was evaluated as ('' != '').
                    Task "CreateItem" skipped, due to false condition; ('$(UICulture)' != '') was evaluated as ('' != '').
                    Task "CreateItem" skipped, due to false condition; ('@(NonResxWithCulture)' != '') was evaluated as ('' != '').
@@ -5894,17 +5893,17 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                    Done executing task "CreateItem". (TaskId:38)
                    Task "CreateItem" (TaskId:39)
                    Done executing task "CreateItem". (TaskId:39)
-23:52:26.776     1>Done building target "SatelliteDllsProjectOutputGroup" in project "SDLProject.vcxproj".: (TargetId:92)
+17:55:08.310     1>Done building target "SatelliteDllsProjectOutputGroup" in project "SDLProject.vcxproj".: (TargetId:92)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "AssignTargetPaths" skipped. Previously built successfully.
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "AssignTargetPaths" skipped. Previously built successfully.
-23:52:26.776     1>Target "MakeDirsForFxc: (TargetId:93)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ContentFilesProjectOutputGroup" depends on it):
+17:55:08.310     1>Target "MakeDirsForFxc: (TargetId:93)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "ContentFilesProjectOutputGroup" depends on it):
                    Task "MakeDir" (TaskId:40)
                    Done executing task "MakeDir". (TaskId:40)
-23:52:26.776     1>Done building target "MakeDirsForFxc" in project "SDLProject.vcxproj".: (TargetId:93)
+17:55:08.310     1>Done building target "MakeDirsForFxc" in project "SDLProject.vcxproj".: (TargetId:93)
                    Target "_CreateCopyFileItems" skipped, due to false condition; ('@(CopyFileToFolders)' != '') was evaluated as ('' != '').
-23:52:26.776     1>Target "ContentFilesProjectOutputGroup: (TargetId:94)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "CreateRecipeFile" depends on it):
+17:55:08.310     1>Target "ContentFilesProjectOutputGroup: (TargetId:94)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "CreateRecipeFile" depends on it):
                    Added Item(s): 
                        _ContentFilesProjectOutputGroupOutput=
                            Effects.cpp
@@ -7426,13 +7425,13 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                                    _RootFolder=C:\Users\Owner\Documents\CSUY3113\P5\
                    Task "AssignTargetPath" skipped, due to false condition; ('@(ContentFilesProjectOutputGroupOutputFullPath)' != '' and '%(ContentFilesProjectOutputGroupOutputFullPath.RootFolder)' != '') was evaluated as ('' != '' and '' != '').
                    Task "AssignTargetPath" skipped, due to false condition; ('@(ContentFilesProjectOutputGroupOutputFullPath)' != '' and '%(ContentFilesProjectOutputGroupOutputFullPath.RootFolder)' == '') was evaluated as ('' != '' and '' == '').
-23:52:26.778     1>Done building target "ContentFilesProjectOutputGroup" in project "SDLProject.vcxproj".: (TargetId:94)
+17:55:08.315     1>Done building target "ContentFilesProjectOutputGroup" in project "SDLProject.vcxproj".: (TargetId:94)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "ResolveReferences" skipped. Previously built successfully.
-23:52:26.778     1>Target "ResolvedLinkLib: (TargetId:95)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "CreateRecipeFile" depends on it):
+17:55:08.315     1>Target "ResolvedLinkLib: (TargetId:95)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "CreateRecipeFile" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == '.vcxproj' and '' != '' and '' != '').
-23:52:26.778     1>Done building target "ResolvedLinkLib" in project "SDLProject.vcxproj".: (TargetId:95)
-23:52:26.778     1>Target "CreateRecipeFile: (TargetId:96)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildLinkAction" depends on it):
+17:55:08.315     1>Done building target "ResolvedLinkLib" in project "SDLProject.vcxproj".: (TargetId:95)
+17:55:08.315     1>Target "CreateRecipeFile: (TargetId:96)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildLinkAction" depends on it):
                    Using "GenerateDesktopDeployRecipe" task from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Build.CppTasks.Common.dll".
                    Task "GenerateDesktopDeployRecipe" (TaskId:41)
                      Task Parameter:OutputFile=Debug\SDLProject.exe.recipe (TaskId:41)
@@ -7443,70 +7442,70 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                                      OriginalItemSpec=C:\Users\Owner\Documents\CSUY3113\P5\Debug\SDLProject.exe (TaskId:41)
                      Task Parameter:ProjectDir=C:\Users\Owner\Documents\CSUY3113\P5\ (TaskId:41)
                    Done executing task "GenerateDesktopDeployRecipe". (TaskId:41)
-23:52:26.779     1>Done building target "CreateRecipeFile" in project "SDLProject.vcxproj".: (TargetId:96)
-23:52:26.779     1>Target "_GenerateSatelliteAssemblyInputs: (TargetId:97)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+17:55:08.333     1>Done building target "CreateRecipeFile" in project "SDLProject.vcxproj".: (TargetId:96)
+17:55:08.333     1>Target "_GenerateSatelliteAssemblyInputs: (TargetId:97)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
                    Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
                    Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
-23:52:26.779     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "SDLProject.vcxproj".: (TargetId:97)
+17:55:08.334     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "SDLProject.vcxproj".: (TargetId:97)
                    Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
                    Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
-23:52:26.780     1>Target "CreateSatelliteAssemblies: (TargetId:98)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildLinkAction" depends on it):
-23:52:26.780     1>Done building target "CreateSatelliteAssemblies" in project "SDLProject.vcxproj".: (TargetId:98)
+17:55:08.334     1>Target "CreateSatelliteAssemblies: (TargetId:98)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildLinkAction" depends on it):
+17:55:08.334     1>Done building target "CreateSatelliteAssemblies" in project "SDLProject.vcxproj".: (TargetId:98)
                    Target "CopyLocalNativeReference" skipped, due to false condition; ('$(CopyLocalProjectReference)' == 'true') was evaluated as ('false' == 'true').
-23:52:26.780     1>Target "_Appverifier: (TargetId:99)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildLinkAction" depends on it):
-23:52:26.780     1>Done building target "_Appverifier" in project "SDLProject.vcxproj".: (TargetId:99)
-23:52:26.780     1>Target "_Deploy: (TargetId:100)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildLinkAction" depends on it):
-23:52:26.780     1>Done building target "_Deploy" in project "SDLProject.vcxproj".: (TargetId:100)
+17:55:08.334     1>Target "_Appverifier: (TargetId:99)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildLinkAction" depends on it):
+17:55:08.334     1>Done building target "_Appverifier" in project "SDLProject.vcxproj".: (TargetId:99)
+17:55:08.334     1>Target "_Deploy: (TargetId:100)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildLinkAction" depends on it):
+17:55:08.334     1>Done building target "_Deploy" in project "SDLProject.vcxproj".: (TargetId:100)
                    Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
                    Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
                    Target "AssignTargetPaths" skipped. Previously built successfully.
                    Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
                    Target "_GetProjectReferenceTargetFrameworkProperties" skipped. Previously built successfully.
-23:52:26.780     1>Target "_PopulateCommonStateForGetCopyToOutputDirectoryItems: (TargetId:101)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+17:55:08.334     1>Target "_PopulateCommonStateForGetCopyToOutputDirectoryItems: (TargetId:101)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
                    Set Property: _GCTODIKeepDuplicates=false
                    Set Property: _GCTODIKeepMetadata=CopyToOutputDirectory;TargetPath
-23:52:26.780     1>Done building target "_PopulateCommonStateForGetCopyToOutputDirectoryItems" in project "SDLProject.vcxproj".: (TargetId:101)
-23:52:26.780     1>Target "GetCopyToOutputDirectoryXamlAppDefs: (TargetId:102)" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+17:55:08.334     1>Done building target "_PopulateCommonStateForGetCopyToOutputDirectoryItems" in project "SDLProject.vcxproj".: (TargetId:101)
+17:55:08.334     1>Target "GetCopyToOutputDirectoryXamlAppDefs: (TargetId:102)" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
                    Task "AssignTargetPath" (TaskId:42)
                      Task Parameter:RootFolder=C:\Users\Owner\Documents\CSUY3113\P5 (TaskId:42)
                    Done executing task "AssignTargetPath". (TaskId:42)
-23:52:26.780     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "SDLProject.vcxproj".: (TargetId:102)
-23:52:26.780     1>Target "GetCopyToOutputDirectoryItems: (TargetId:103)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+17:55:08.334     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "SDLProject.vcxproj".: (TargetId:102)
+17:55:08.334     1>Target "GetCopyToOutputDirectoryItems: (TargetId:103)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
                    Using "CallTarget" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "CallTarget" (TaskId:43)
                      Task Parameter:Targets=_GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences (TaskId:43)
                    Target "_PopulateCommonStateForGetCopyToOutputDirectoryItems" skipped. Previously built successfully.
-23:52:26.780     1>Target "_GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences: (TargetId:104)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+17:55:08.338     1>Target "_GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences: (TargetId:104)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
                    Task "AssignTargetPath" (TaskId:44)
                      Task Parameter:RootFolder=C:\Users\Owner\Documents\CSUY3113\P5 (TaskId:44)
                    Done executing task "AssignTargetPath". (TaskId:44)
-23:52:26.780     1>Done building target "_GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences" in project "SDLProject.vcxproj".: (TargetId:104)
+17:55:08.339     1>Done building target "_GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences" in project "SDLProject.vcxproj".: (TargetId:104)
                    Done executing task "CallTarget". (TaskId:43)
                    Task "CallTarget" (TaskId:45)
                      Task Parameter:Targets=_GetCopyToOutputDirectoryItemsFromThisProject (TaskId:45)
                    Target "AssignTargetPaths" skipped. Previously built successfully.
                    Target "_PopulateCommonStateForGetCopyToOutputDirectoryItems" skipped. Previously built successfully.
-23:52:26.780     1>Target "_GetCopyToOutputDirectoryItemsFromThisProject: (TargetId:105)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+17:55:08.339     1>Target "_GetCopyToOutputDirectoryItemsFromThisProject: (TargetId:105)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
                    Task "AssignTargetPath" (TaskId:46)
                      Task Parameter:RootFolder=C:\Users\Owner\Documents\CSUY3113\P5 (TaskId:46)
                    Done executing task "AssignTargetPath". (TaskId:46)
-23:52:26.781     1>Done building target "_GetCopyToOutputDirectoryItemsFromThisProject" in project "SDLProject.vcxproj".: (TargetId:105)
+17:55:08.340     1>Done building target "_GetCopyToOutputDirectoryItemsFromThisProject" in project "SDLProject.vcxproj".: (TargetId:105)
                    Done executing task "CallTarget". (TaskId:45)
-23:52:26.781     1>Done building target "GetCopyToOutputDirectoryItems" in project "SDLProject.vcxproj".: (TargetId:103)
+17:55:08.340     1>Done building target "GetCopyToOutputDirectoryItems" in project "SDLProject.vcxproj".: (TargetId:103)
                    Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
                    Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
-23:52:26.781     1>Target "_CopySourceItemsToOutputDirectory: (TargetId:106)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
-23:52:26.781     1>Done building target "_CopySourceItemsToOutputDirectory" in project "SDLProject.vcxproj".: (TargetId:106)
+17:55:08.340     1>Target "_CopySourceItemsToOutputDirectory: (TargetId:106)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+17:55:08.340     1>Done building target "_CopySourceItemsToOutputDirectory" in project "SDLProject.vcxproj".: (TargetId:106)
                    Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
                    Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
-23:52:26.781     1>Target "_CheckForCompileOutputs: (TargetId:107)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+17:55:08.340     1>Target "_CheckForCompileOutputs: (TargetId:107)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
                    Added Item(s): FileWrites=Debug\SDLProject.exe
                    Set Property: _DocumentationFileProduced=false
                    Added Item(s): FileWrites=Debug\SDLProject.pdb
-23:52:26.781     1>Done building target "_CheckForCompileOutputs" in project "SDLProject.vcxproj".: (TargetId:107)
+17:55:08.341     1>Done building target "_CheckForCompileOutputs" in project "SDLProject.vcxproj".: (TargetId:107)
                    Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
-23:52:26.781     1>Target "CopyFilesToOutputDirectory: (TargetId:108)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "PrepareForRun" depends on it):
+17:55:08.341     1>Target "CopyFilesToOutputDirectory: (TargetId:108)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "PrepareForRun" depends on it):
                    Set Property: CreateHardLinksForCopyFilesToOutputDirectoryIfPossible=false
                    Set Property: CreateSymbolicLinksForCopyFilesToOutputDirectoryIfPossible=false
                    Set Property: ErrorIfLinkFailsForCopyFilesToOutputDirectory=false
@@ -7537,23 +7536,23 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                    Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
                    Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
                    Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
-23:52:26.782     1>Done building target "CopyFilesToOutputDirectory" in project "SDLProject.vcxproj".: (TargetId:108)
-23:52:26.782     1>Target "PrepareForRun: (TargetId:109)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildLinkAction" depends on it):
-23:52:26.782     1>Done building target "PrepareForRun" in project "SDLProject.vcxproj".: (TargetId:109)
+17:55:08.348     1>Done building target "CopyFilesToOutputDirectory" in project "SDLProject.vcxproj".: (TargetId:108)
+17:55:08.348     1>Target "PrepareForRun: (TargetId:109)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildLinkAction" depends on it):
+17:55:08.348     1>Done building target "PrepareForRun" in project "SDLProject.vcxproj".: (TargetId:109)
                    Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
-23:52:26.782     1>Target "PostBuildEvent: (TargetId:110)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildLinkAction" depends on it):
+17:55:08.348     1>Target "PostBuildEvent: (TargetId:110)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "_BuildLinkAction" depends on it):
                    Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
                    Task "Exec" skipped, due to false condition; ('%(PostBuildEvent.Command)' != '') was evaluated as ('' != '').
-23:52:26.782     1>Done building target "PostBuildEvent" in project "SDLProject.vcxproj".: (TargetId:110)
-23:52:26.782     1>Target "_BuildLinkAction: (TargetId:111)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "BuildLink" depends on it):
-23:52:26.782     1>Done building target "_BuildLinkAction" in project "SDLProject.vcxproj".: (TargetId:111)
-23:52:26.782     1>Target "BuildLink: (TargetId:112)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "Build" depends on it):
-23:52:26.782     1>Done building target "BuildLink" in project "SDLProject.vcxproj".: (TargetId:112)
-23:52:26.782     1>Target "AfterBuild: (TargetId:113)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "Build" depends on it):
-23:52:26.782     1>Done building target "AfterBuild" in project "SDLProject.vcxproj".: (TargetId:113)
+17:55:08.348     1>Done building target "PostBuildEvent" in project "SDLProject.vcxproj".: (TargetId:110)
+17:55:08.348     1>Target "_BuildLinkAction: (TargetId:111)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "BuildLink" depends on it):
+17:55:08.348     1>Done building target "_BuildLinkAction" in project "SDLProject.vcxproj".: (TargetId:111)
+17:55:08.348     1>Target "BuildLink: (TargetId:112)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "Build" depends on it):
+17:55:08.348     1>Done building target "BuildLink" in project "SDLProject.vcxproj".: (TargetId:112)
+17:55:08.348     1>Target "AfterBuild: (TargetId:113)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "Build" depends on it):
+17:55:08.348     1>Done building target "AfterBuild" in project "SDLProject.vcxproj".: (TargetId:113)
                    Target "_CheckForCompileOutputs" skipped. Previously built successfully.
                    Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
-23:52:26.782     1>Target "_CleanGetCurrentAndPriorFileWrites: (TargetId:114)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "IncrementalClean" depends on it):
+17:55:08.348     1>Target "_CleanGetCurrentAndPriorFileWrites: (TargetId:114)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "IncrementalClean" depends on it):
                    Task "ReadLinesFromFile" (TaskId:48)
                      Task Parameter:File=Debug\SDLProject.vcxproj.FileListAbsolute.txt (TaskId:48)
                      Output Item(s): 
@@ -7633,8 +7632,8 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                              C:\Users\Owner\Documents\CSUY3113\P5\Debug\SDLProject.exe
                              C:\Users\Owner\Documents\CSUY3113\P5\Debug\SDLProject.pdb (TaskId:53)
                    Done executing task "RemoveDuplicates". (TaskId:53)
-23:52:26.783     1>Done building target "_CleanGetCurrentAndPriorFileWrites" in project "SDLProject.vcxproj".: (TargetId:114)
-23:52:26.783     1>Target "IncrementalClean: (TargetId:115)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "Build" depends on it):
+17:55:08.354     1>Done building target "_CleanGetCurrentAndPriorFileWrites" in project "SDLProject.vcxproj".: (TargetId:114)
+17:55:08.354     1>Target "IncrementalClean: (TargetId:115)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "Build" depends on it):
                    Added Item(s): 
                        _CleanOrphanFileWrites=
                            C:\Users\abrol\OneDrive\Desktop\CS3113-master\Templates\VisualStudioSDLProject\SDLProject\Debug\SDLProject.exe
@@ -7696,8 +7695,8 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                              C:\Users\Owner\Documents\CSUY3113\P5\Debug\SDLProject.pdb (TaskId:57)
                    Done executing task "RemoveDuplicates". (TaskId:57)
                    Task "WriteLinesToFile" skipped, due to false condition; ('@(_CleanUnfilteredPriorFileWrites)'!='@(_CleanUniqueRemainingFileWritesAfterIncrementalClean)') was evaluated as ('C:\Users\abrol\OneDrive\Desktop\CS3113-master\Templates\VisualStudioSDLProject\SDLProject\Debug\SDLProject.exe;C:\Users\abrol\OneDrive\Desktop\CS3113-master\Templates\VisualStudioSDLProject\SDLProject\Debug\SDLProject.pdb;C:\Users\abrol\OneDrive\Desktop\examplesCS3113\Debug\SDLProject.exe;C:\Users\abrol\OneDrive\Desktop\examplesCS3113\Debug\SDLProject.pdb;C:\Users\Owner\Downloads\mushcock\examplesCS3113\Debug\SDLProject.exe;C:\Users\Owner\Downloads\mushcock\examplesCS3113\Debug\SDLProject.pdb;C:\Users\Owner\Documents\CSUY3113\P5\Debug\SDLProject.exe;C:\Users\Owner\Documents\CSUY3113\P5\Debug\SDLProject.pdb'!='C:\Users\abrol\OneDrive\Desktop\CS3113-master\Templates\VisualStudioSDLProject\SDLProject\Debug\SDLProject.exe;C:\Users\abrol\OneDrive\Desktop\CS3113-master\Templates\VisualStudioSDLProject\SDLProject\Debug\SDLProject.pdb;C:\Users\abrol\OneDrive\Desktop\examplesCS3113\Debug\SDLProject.exe;C:\Users\abrol\OneDrive\Desktop\examplesCS3113\Debug\SDLProject.pdb;C:\Users\Owner\Downloads\mushcock\examplesCS3113\Debug\SDLProject.exe;C:\Users\Owner\Downloads\mushcock\examplesCS3113\Debug\SDLProject.pdb;C:\Users\Owner\Documents\CSUY3113\P5\Debug\SDLProject.exe;C:\Users\Owner\Documents\CSUY3113\P5\Debug\SDLProject.pdb').
-23:52:26.784     1>Done building target "IncrementalClean" in project "SDLProject.vcxproj".: (TargetId:115)
-23:52:26.784     1>Target "FinalizeBuildStatus: (TargetId:116)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "Build" depends on it):
+17:55:08.356     1>Done building target "IncrementalClean" in project "SDLProject.vcxproj".: (TargetId:115)
+17:55:08.356     1>Target "FinalizeBuildStatus: (TargetId:116)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (target "Build" depends on it):
                    Task "Delete" (TaskId:58)
                      Task Parameter:Files=Debug\SDLProject.tlog\unsuccessfulbuild (TaskId:58)
                      Deleting file "Debug\SDLProject.tlog\unsuccessfulbuild". (TaskId:58)
@@ -7706,33 +7705,27 @@ Logging verbosity is set to: Diagnostic.23:52:26.699     1>Project "C:\Users\Own
                      Task Parameter:Files=Debug\SDLProject.tlog\SDLProject.lastbuildstate (TaskId:59)
                      Touching "Debug\SDLProject.tlog\SDLProject.lastbuildstate". (TaskId:59)
                    Done executing task "Touch". (TaskId:59)
-23:52:26.786     1>Done building target "FinalizeBuildStatus" in project "SDLProject.vcxproj".: (TargetId:116)
+17:55:08.358     1>Done building target "FinalizeBuildStatus" in project "SDLProject.vcxproj".: (TargetId:116)
                    Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
                    Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
-23:52:26.786     1>Target "Build: (TargetId:117)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (entry point):
-23:52:26.786     1>Done building target "Build" in project "SDLProject.vcxproj".: (TargetId:117)
-23:52:26.786     1>Done Building Project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (Build target(s)).
+17:55:08.360     1>Target "Build: (TargetId:117)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" from project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (entry point):
+17:55:08.360     1>Done building target "Build" in project "SDLProject.vcxproj".: (TargetId:117)
+17:55:08.360     1>Done Building Project "C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj" (Build target(s)).
 
 Project Evaluation Performance Summary:
-       33 ms  C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj   1 calls
+       75 ms  C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj   1 calls
 
 Project Performance Summary:
-       87 ms  C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj   1 calls
-                 87 ms  Build                                      1 calls
+      282 ms  C:\Users\Owner\Documents\CSUY3113\P5\SDLProject.vcxproj   1 calls
+                282 ms  Build                                      1 calls
 
 Target Performance Summary:
         0 ms  _BuildCompileAction                        1 calls
-        0 ms  _Link                                      1 calls
         0 ms  AfterLink                                  1 calls
-        0 ms  ComputeLinkSwitches                        1 calls
-        0 ms  PreLinkEvent                               1 calls
-        0 ms  MakeDirsForLink                            1 calls
         0 ms  PrepareResourceNames                       1 calls
         0 ms  CreateCustomManifestResourceNames          1 calls
-        0 ms  AssignTargetPaths                          1 calls
         0 ms  ComputeManifestInputsTargets               1 calls
         0 ms  ComputeLinkInputsFromProject               1 calls
-        0 ms  ComputeCLGeneratedLinkInputs               1 calls
         0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
         0 ms  ComputeRCGeneratedLinkInputs               1 calls
         0 ms  ComputeRCOutputs                           1 calls
@@ -7742,128 +7735,134 @@ Target Performance Summary:
         0 ms  AfterBuildCompileEvent                     1 calls
         0 ms  _ResourceCompile                           1 calls
         0 ms  AfterResourceCompile                       1 calls
-        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  _Link                                      1 calls
         0 ms  _ALink                                     1 calls
         0 ms  _Manifest                                  1 calls
         0 ms  ResolvedXDCMake                            1 calls
-        0 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
         0 ms  AfterBuild                                 1 calls
         0 ms  BuildLink                                  1 calls
         0 ms  _BuildLinkAction                           1 calls
         0 ms  PostBuildEvent                             1 calls
         0 ms  PrepareForRun                              1 calls
-        0 ms  _CheckForCompileOutputs                    1 calls
         0 ms  _CopySourceItemsToOutputDirectory          1 calls
-        0 ms  _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences   1 calls
         0 ms  GetCopyToOutputDirectoryXamlAppDefs        1 calls
         0 ms  _PopulateCommonStateForGetCopyToOutputDirectoryItems   1 calls
-        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  SelectClCompile                            1 calls
         0 ms  _Deploy                                    1 calls
         0 ms  CreateSatelliteAssemblies                  1 calls
-        0 ms  _GenerateSatelliteAssemblyInputs           1 calls
         0 ms  ResolvedLinkLib                            1 calls
         0 ms  MakeDirsForFxc                             1 calls
-        0 ms  SatelliteDllsProjectOutputGroup            1 calls
         0 ms  _BscMake                                   1 calls
         0 ms  MakeDirsForBscMake                         1 calls
         0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
         0 ms  _XdcMake                                   1 calls
-        0 ms  MakeDirsForXdcMake                         1 calls
+        0 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
         0 ms  _Appverifier                               1 calls
-        0 ms  _ClCompile                                 1 calls
+        0 ms  FindReferenceAssembliesForReferences       1 calls
         0 ms  Build                                      1 calls
-        0 ms  BuildGenerateSourcesTraverse               1 calls
-        0 ms  _Xsd                                       1 calls
-        0 ms  GetFrameworkPaths                          1 calls
-        0 ms  GetReferenceAssemblyPaths                  1 calls
-        0 ms  CustomBuild                                1 calls
-        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  BeforeClCompile                            1 calls
         0 ms  SelectCustomBuild                          1 calls
         0 ms  _SelectedFiles                             1 calls
-        0 ms  PreBuildEvent                              1 calls
+        0 ms  ResolveProjectReferences                   1 calls
         0 ms  BeforeBuildGenerateSources                 1 calls
-        0 ms  AfterClCompile                             1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
         0 ms  _PrepareForBuild                           1 calls
-        0 ms  ResolveReferences                          1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
         0 ms  AfterResolveReferences                     1 calls
         0 ms  ResolveAssemblyReferences                  1 calls
         0 ms  ExpandSDKReferences                        1 calls
-        0 ms  GetResolvedWinMD                           1 calls
         0 ms  ResolveSDKReferences                       1 calls
-        0 ms  BeforeResolveReferences                    1 calls
-        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
-        0 ms  MakeDirsForMidl                            1 calls
-        0 ms  AfterMidl                                  1 calls
-        0 ms  SelectClCompile                            1 calls
-        0 ms  AssignProjectConfiguration                 1 calls
-        0 ms  FixupCLCompileOptions                      1 calls
-        0 ms  PrepareProjectReferences                   1 calls
-        0 ms  FindReferenceAssembliesForReferences       1 calls
-        0 ms  ComputeCLInputPDBName                      1 calls
-        0 ms  ResolveProjectReferences                   1 calls
-        0 ms  BeforeClCompile                            1 calls
-        0 ms  SetCABuildNativeEnvironmentVariables       1 calls
+        0 ms  _CheckWindowsSDKInstalled                  1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  ComputeCustomBuildOutput                   1 calls
+        0 ms  PreBuildEvent                              1 calls
         0 ms  BuildGenerateSources                       1 calls
+        0 ms  BuildCompileTraverse                       1 calls
         0 ms  _BuildGenerateSourcesAction                1 calls
         0 ms  AfterBuildGenerateSourcesEvent             1 calls
         0 ms  AfterBuildGenerateSources                  1 calls
         0 ms  _Midl                                      1 calls
-        0 ms  BuildCompileTraverse                       1 calls
-        1 ms  _PrepareForReferenceResolution             1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  PrepareProjectReferences                   1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  MakeDirsForMidl                            1 calls
         1 ms  ComputeLegacyManifestEmbedding             1 calls
-        1 ms  WarnCompileDuplicatedFilename              1 calls
-        1 ms  SetBuildDefaultEnvironmentVariables        1 calls
-        1 ms  GetCopyToOutputDirectoryItems              1 calls
-        1 ms  _GetCopyToOutputDirectoryItemsFromThisProject   1 calls
-        1 ms  ComputeCustomBuildOutput                   1 calls
-        1 ms  CreateRecipeFile                           1 calls
-        1 ms  _CheckWindowsSDKInstalled                  1 calls
-        1 ms  _CleanGetCurrentAndPriorFileWrites         1 calls
-        1 ms  IncrementalClean                           1 calls
+        1 ms  _CheckForCompileOutputs                    1 calls
         1 ms  CopyFileToFolders                          1 calls
+        1 ms  PreLinkEvent                               1 calls
+        1 ms  ComputeCLGeneratedLinkInputs               1 calls
+        1 ms  _PrepareForReferenceResolution             1 calls
+        1 ms  GetResolvedWinMD                           1 calls
+        1 ms  MakeDirsForResourceCompile                 1 calls
+        1 ms  FixupCLCompileOptions                      1 calls
+        1 ms  MakeDirsForXdcMake                         1 calls
+        1 ms  _GenerateSatelliteAssemblyInputs           1 calls
         1 ms  DoLinkOutputFilesMatch                     1 calls
-        1 ms  BuiltProjectOutputGroup                    1 calls
-        1 ms  SplitResourcesByCulture                    1 calls
+        1 ms  _GetCopyToOutputDirectoryItemsFromThisProject   1 calls
         1 ms  MakeDirsForCl                              1 calls
-        1 ms  CopyFilesToOutputDirectory                 1 calls
+        1 ms  SetBuildDefaultEnvironmentVariables        1 calls
         1 ms  ComputeReferenceCLInput                    1 calls
-        1 ms  SetTelemetryEnvironmentVariables           1 calls
-        2 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
-        2 ms  ContentFilesProjectOutputGroup             1 calls
+        1 ms  _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences   1 calls
+        1 ms  SetCABuildNativeEnvironmentVariables       1 calls
+        1 ms  _SplitProjectReferencesByFileExistence     1 calls
+        1 ms  BuiltProjectOutputGroup                    1 calls
+        2 ms  IncrementalClean                           1 calls
+        2 ms  MakeDirsForLink                            1 calls
         2 ms  FinalizeBuildStatus                        1 calls
-        2 ms  InitializeBuildStatus                      1 calls
-        3 ms  PrepareForBuild                            1 calls
-        5 ms  _GetProjectReferenceTargetFrameworkProperties   1 calls
-        5 ms  ComputeCLOutputs                           1 calls
-        9 ms  Link                                       1 calls
-       37 ms  ClCompile                                  1 calls
+        2 ms  CustomBuild                                1 calls
+        2 ms  AssignTargetPaths                          1 calls
+        3 ms  WarnCompileDuplicatedFilename              1 calls
+        3 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        3 ms  SetTelemetryEnvironmentVariables           1 calls
+        5 ms  InitializeBuildStatus                      1 calls
+        5 ms  PrepareForBuild                            1 calls
+        5 ms  ContentFilesProjectOutputGroup             1 calls
+        5 ms  ComputeLinkSwitches                        1 calls
+        6 ms  SatelliteDllsProjectOutputGroup            1 calls
+        6 ms  SplitResourcesByCulture                    1 calls
+        6 ms  GetCopyToOutputDirectoryItems              1 calls
+        6 ms  _CleanGetCurrentAndPriorFileWrites         1 calls
+        7 ms  CopyFilesToOutputDirectory                 1 calls
+       10 ms  _GetProjectReferenceTargetFrameworkProperties   1 calls
+       11 ms  ComputeCLOutputs                           1 calls
+       18 ms  CreateRecipeFile                           1 calls
+       63 ms  ClCompile                                  1 calls
+       83 ms  Link                                       1 calls
 
 Task Performance Summary:
-        0 ms  Delete                                     2 calls
-        0 ms  GenerateDesktopDeployRecipe                1 calls
-        0 ms  AssignProjectConfiguration                 1 calls
-        0 ms  MSBuild                                    1 calls
-        0 ms  CreateItem                                 2 calls
-        0 ms  AssignCulture                              1 calls
-        0 ms  AssignTargetPath                           7 calls
-        0 ms  WriteLinesToFile                           1 calls
+        0 ms  Message                                    3 calls
         0 ms  RemoveDuplicates                           2 calls
-        1 ms  Message                                    3 calls
-        1 ms  CallTarget                                 2 calls
+        0 ms  AssignProjectConfiguration                 1 calls
         1 ms  CheckVCToolsetVersion                      1 calls
-        1 ms  MakeDir                                   10 calls
-        1 ms  ConvertToAbsolutePath                      1 calls
-        1 ms  FindUnderPath                              5 calls
-        1 ms  GetOutOfDateItems                          3 calls
-        1 ms  Copy                                       1 calls
-        1 ms  ReadLinesFromFile                          2 calls
+        1 ms  Delete                                     2 calls
         2 ms  Touch                                      2 calls
-        2 ms  SetEnv                                     8 calls
-        7 ms  Link                                       1 calls
-       36 ms  CL                                         1 calls
+        2 ms  ReadLinesFromFile                          2 calls
+        2 ms  ConvertToAbsolutePath                      1 calls
+        2 ms  AssignTargetPath                           7 calls
+        3 ms  FindUnderPath                              5 calls
+        3 ms  MakeDir                                   10 calls
+        3 ms  WriteLinesToFile                           1 calls
+        3 ms  GetOutOfDateItems                          3 calls
+        3 ms  SetEnv                                     8 calls
+        5 ms  CallTarget                                 2 calls
+        5 ms  AssignCulture                              1 calls
+        6 ms  CreateItem                                 2 calls
+        7 ms  Copy                                       1 calls
+       10 ms  MSBuild                                    1 calls
+       18 ms  GenerateDesktopDeployRecipe                1 calls
+       60 ms  CL                                         1 calls
+       67 ms  Link                                       1 calls
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.11
+Time Elapsed 00:00:00.27
